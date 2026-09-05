@@ -1,30 +1,40 @@
 # Formulate Strategy
 
-An English-first Agent Skill that turns ambiguous ambitions and competing priorities into **one strategic focus**, backed by explicit choices, concentrated resources, coherent action, and evidence.
+A strategy-formulation Agent Skill that distills complexity into **one defensible focus**, then aligns choices, capabilities, resources, and action behind it.
 
 ## How it works
 
 ```mermaid
-flowchart LR
-    A["Ambition or<br/>strategic problem"] --> B["Diagnose the system<br/>and find the crux"]
-    B --> C["Generate real alternatives<br/>and test what must be true"]
-    C --> F["ONE STRATEGIC FOCUS<br/>Target · Objective · Advantage<br/>Resources · Exclusions"]
-
-    subgraph S["Supporting strategic framework"]
-        K["Strategy kernel"] --> W["Where to play<br/>How to win"]
-        W --> P["Capabilities<br/>and activity system"]
-    end
+flowchart TB
+    Q(["STRATEGIC QUESTION"]) --> D["1 · DIAGNOSE<br/>Facts · forces · crux"]
+    D --> A["2 · CHOOSE<br/>Real alternatives · what must be true"]
+    A --> F{{"3 · ONE STRATEGIC FOCUS<br/>Target · objective · advantage<br/>Resources · exclusions"}}
 
     F --> K
-    P --> R["Resource commitments<br/>Coherent actions · No-list"]
-    R -. "evidence · dissent · invalidation" .-> F
+    subgraph FRAME["4 · SUPPORTING STRATEGIC FRAMEWORK"]
+        direction LR
+        K["WHY<br/>Strategy kernel"] --> W["WHERE + HOW<br/>Choice cascade"]
+        W --> P["WITH WHAT<br/>Capabilities + activity system"]
+    end
 
-    classDef input fill:#F8FAFC,stroke:#64748B,color:#0F172A,stroke-width:1.2px;
-    classDef focus fill:#111827,stroke:#111827,color:#FFFFFF,stroke-width:2px;
-    classDef support fill:#EEF2FF,stroke:#6366F1,color:#1E1B4B,stroke-width:1.2px;
-    class A,B,C input;
+    P --> R["5 · COMMIT<br/>Resource shifts · coherent actions · no-list"]
+    R --> G{"6 · INTEGRITY GATES<br/>Crux · focus · choice · reality<br/>Power · commitment · adaptability"}
+    G -- "PASS" --> S(["DEFENSIBLE STRATEGY"])
+    G -. "REFRAME" .-> D
+
+    classDef origin fill:#F8FAFC,stroke:#94A3B8,color:#0F172A,stroke-width:1.2px;
+    classDef process fill:#EEF2FF,stroke:#818CF8,color:#1E1B4B,stroke-width:1.2px;
+    classDef focus fill:#312E81,stroke:#4338CA,color:#FFFFFF,stroke-width:2.4px;
+    classDef support fill:#F5F3FF,stroke:#A78BFA,color:#2E1065,stroke-width:1.2px;
+    classDef gate fill:#FFF7ED,stroke:#F59E0B,color:#7C2D12,stroke-width:1.4px;
+    classDef result fill:#ECFDF5,stroke:#10B981,color:#064E3B,stroke-width:1.6px;
+    class Q origin;
+    class D,A process;
     class F focus;
     class K,W,P,R support;
+    class G gate;
+    class S result;
+    style FRAME fill:#FAFAFF,stroke:#C7D2FE,stroke-width:1px
 ```
 
 The Skill combines Rumelt's strategy kernel, Porter's trade-offs and activity fit, Martin's choice cascade, nonlinear strategy lenses inspired by Peter Thiel and Paul Graham, and Zeng Ming's smart-business frameworks. The frameworks support the focus; they never replace it.
