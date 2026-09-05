@@ -5,36 +5,62 @@ A strategy-formulation Agent Skill that distills complexity into **one defensibl
 ## How it works
 
 ```mermaid
+%%{init: {"flowchart": {"curve": "basis", "nodeSpacing": 34, "rankSpacing": 42}}}%%
 flowchart TB
-    Q(["STRATEGIC QUESTION"]) --> D["1 · DIAGNOSE<br/>Facts · forces · crux"]
-    D --> A["2 · CHOOSE<br/>Real alternatives · what must be true"]
-    A --> F{{"3 · ONE STRATEGIC FOCUS<br/>Target · objective · advantage<br/>Resources · exclusions"}}
-
-    F --> K
-    subgraph FRAME["4 · SUPPORTING STRATEGIC FRAMEWORK"]
+    subgraph DISCOVER["1 · DISCOVER"]
         direction LR
-        K["WHY<br/>Strategy kernel"] --> W["WHERE + HOW<br/>Choice cascade"]
-        W --> P["WITH WHAT<br/>Capabilities + activity system"]
+        D["DIAGNOSIS<br/>Facts · forces · crux"]
+        O["OPTIONS<br/>Trade-offs · what must be true"]
+        E["EVIDENCE<br/>Outside view · strongest dissent"]
     end
 
-    P --> R["5 · COMMIT<br/>Resource shifts · coherent actions · no-list"]
-    R --> G{"6 · INTEGRITY GATES<br/>Crux · focus · choice · reality<br/>Power · commitment · adaptability"}
-    G -- "PASS" --> S(["DEFENSIBLE STRATEGY"])
+    D --> F
+    O --> F
+    E --> F
+
+    F(["2 · ONE STRATEGIC FOCUS<br/>Target · objective · advantage<br/>Concentrated resources · explicit exclusions"])
+
+    F --> K
+    F --> W
+    F --> P
+
+    subgraph SUPPORT["3 · SUPPORT"]
+        direction LR
+        K["WHY<br/>Strategy kernel"]
+        W["WHERE + HOW<br/>Choice cascade"]
+        P["WITH WHAT<br/>Capabilities · activity fit"]
+    end
+
+    K --> C
+    W --> C
+    P --> C
+
+    subgraph REAL["4 · MAKE IT REAL"]
+        direction LR
+        C["COMMIT<br/>Resource shifts · coherent actions · no-list"]
+        G{"TEST<br/>Seven integrity gates"}
+        S(["DEFENSIBLE STRATEGY"])
+        C --> G
+        G -- "PASS" --> S
+    end
+
     G -. "REFRAME" .-> D
 
-    classDef origin fill:#F8FAFC,stroke:#94A3B8,color:#0F172A,stroke-width:1.2px;
-    classDef process fill:#EEF2FF,stroke:#818CF8,color:#1E1B4B,stroke-width:1.2px;
+    classDef card fill:#FFFFFF,stroke:#94A3B8,color:#0F172A,stroke-width:1.1px;
     classDef focus fill:#312E81,stroke:#4338CA,color:#FFFFFF,stroke-width:2.4px;
-    classDef support fill:#F5F3FF,stroke:#A78BFA,color:#2E1065,stroke-width:1.2px;
+    classDef support fill:#FFFFFF,stroke:#8B5CF6,color:#2E1065,stroke-width:1.1px;
+    classDef commit fill:#FFFFFF,stroke:#0F766E,color:#134E4A,stroke-width:1.2px;
     classDef gate fill:#FFF7ED,stroke:#F59E0B,color:#7C2D12,stroke-width:1.4px;
-    classDef result fill:#ECFDF5,stroke:#10B981,color:#064E3B,stroke-width:1.6px;
-    class Q origin;
-    class D,A process;
+    classDef result fill:#0F766E,stroke:#115E59,color:#FFFFFF,stroke-width:1.8px;
+    class D,O,E card;
     class F focus;
-    class K,W,P,R support;
+    class K,W,P support;
+    class C commit;
     class G gate;
     class S result;
-    style FRAME fill:#FAFAFF,stroke:#C7D2FE,stroke-width:1px
+    style DISCOVER fill:#F8FAFC,stroke:#CBD5E1,stroke-width:1px
+    style SUPPORT fill:#FAF8FF,stroke:#C4B5FD,stroke-width:1px
+    style REAL fill:#F0FDFA,stroke:#99F6E4,stroke-width:1px
 ```
 
 The Skill combines Rumelt's strategy kernel, Porter's trade-offs and activity fit, Martin's choice cascade, nonlinear strategy lenses inspired by Peter Thiel and Paul Graham, and Zeng Ming's smart-business frameworks. The frameworks support the focus; they never replace it.
