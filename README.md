@@ -1,44 +1,76 @@
 # Formulate Strategy
 
-An Agent Skill for choosing the work, project, or startup worth concentrating on—and building a compounding path around it.
+An Agent Skill for Codex, Claude Code, and Cursor that helps you choose the work, project, or startup worth concentrating on—and build a compounding path around it.
 
-## How it works
+> **Choose what to work on, build what you own, compound what matters.**
+
+## Architecture
 
 ![Strategy focus architecture](assets/strategy-focus-review-canvas.png)
 
-It discovers signal in real interests, abilities, projects, and problems; selects one current Growth Focus; makes an owned project the vehicle; and compounds learning, assets, ownership, and impact without sacrificing the survival floor.
+The skill discovers signal in real interests, abilities, projects, and problems; selects one current Growth Focus; makes an owned project the vehicle; and compounds learning, assets, ownership, and impact without sacrificing the survival floor.
 
-## What it produces
+## Origins
 
-- One current Growth Focus with a real exclusion
-- Evidence of personal fit and external value
-- An owned project or founder thesis
-- One compounding engine, resource commitments, and reality tests
-- A survival floor with persist, pivot, and stop conditions
+The method takes Paul Graham's essays on great work, personal projects, startup ideas, early users, growth, and founder survival as its primary lens. It adds independent safeguards for strategic focus, resource allocation, affordable loss, staged validation, base rates, and the outside view. See the [research provenance](formulate-strategy/references/research-provenance.md) for sources and limitations.
 
 ## Install
 
-Clone the repository first, then run the platform-specific configuration below from its root. The portable package is `formulate-strategy/`; `agents/openai.yaml` only supplies Codex UI metadata.
+Clone once:
 
-| Platform | Scope | Target | Install / import | Invoke |
-| --- | --- | --- | --- | --- |
-| All | Prepare | Local checkout | `git clone https://github.com/ZepinLi/formulate-strategy.git && cd formulate-strategy` | — |
-| Codex | Global | `~/.codex/skills/formulate-strategy/` | `mkdir -p ~/.codex/skills && cp -R formulate-strategy/formulate-strategy ~/.codex/skills/` | `$formulate-strategy` |
-| Claude Code | Global | `~/.claude/skills/formulate-strategy/` | `mkdir -p ~/.claude/skills && cp -R formulate-strategy/formulate-strategy ~/.claude/skills/` | `/formulate-strategy` or automatic |
-| Claude Code | Project | `.claude/skills/formulate-strategy/` | `mkdir -p .claude/skills && cp -R formulate-strategy/formulate-strategy .claude/skills/` | `/formulate-strategy` |
-| Cursor | Global | `~/.cursor/skills/formulate-strategy/` | `mkdir -p ~/.cursor/skills && cp -R formulate-strategy/formulate-strategy ~/.cursor/skills/` | `/formulate-strategy` or `@` |
-| Cursor | Project | `.cursor/skills/formulate-strategy/` | `mkdir -p .cursor/skills && cp -R formulate-strategy/formulate-strategy .cursor/skills/` | `/formulate-strategy` or `@` |
-| Claude.ai | Account | Customize → Skills | `zip -r /tmp/formulate-strategy.zip formulate-strategy`, then upload and enable | Natural language |
+```bash
+git clone https://github.com/ZepinLi/formulate-strategy.git
+cd formulate-strategy
+```
 
-See the [Claude Code skills guide](https://code.claude.com/docs/en/skills) and [Cursor Agent Skills guide](https://cursor.com/docs/skills) for platform settings.
+Link the same skill into any client you use:
+
+```bash
+# Codex
+mkdir -p ~/.codex/skills
+ln -s "$PWD/formulate-strategy" ~/.codex/skills/formulate-strategy
+
+# Claude Code
+mkdir -p ~/.claude/skills
+ln -s "$PWD/formulate-strategy" ~/.claude/skills/formulate-strategy
+
+# Cursor
+mkdir -p ~/.cursor/skills
+ln -s "$PWD/formulate-strategy" ~/.cursor/skills/formulate-strategy
+```
+
+Restart the client or open a new agent session if the skill is not discovered immediately. Cursor users can alternatively [import the GitHub repository](https://cursor.com/docs/skills#installing-skills-from-github) from **Customize → Rules → Add Rule → Remote Rule (GitHub)**.
 
 ## Use
 
+| Client | Direct invocation |
+| --- | --- |
+| Codex | `$formulate-strategy help me choose the work worth concentrating on now.` |
+| Claude Code | `/formulate-strategy help me choose the work worth concentrating on now.` |
+| Cursor | `/formulate-strategy help me choose the work worth concentrating on now.` |
+
+All three clients may also discover the skill automatically from its description. The skill returns one current Growth Focus, an owned project or startup thesis, a compounding engine, explicit trade-offs, reality tests, and a protected survival floor.
+
+## Structure
+
 ```text
-Codex: Use $formulate-strategy to identify the one field, project, or startup worth concentrating on now and build a compounding path around it.
-Claude Code / Cursor: Use /formulate-strategy to identify the one field, project, or startup worth concentrating on now and build a compounding path around it.
+formulate-strategy/
+├── README.md
+├── LICENSE
+├── assets/
+│   ├── strategy-focus-review-canvas.png
+│   └── strategy-focus-review-canvas.svg
+└── formulate-strategy/
+    ├── SKILL.md
+    ├── references/
+    │   ├── founder-growth.md
+    │   └── research-provenance.md
+    └── agents/
+        └── openai.yaml
 ```
 
-See [research provenance](formulate-strategy/references/research-provenance.md) for the source architecture and its limits.
+The inner `formulate-strategy/` directory is the self-contained skill.
 
-MIT licensed.
+## License
+
+[MIT](LICENSE)
