@@ -1,19 +1,20 @@
 # Formulate Strategy
 
-A strategy-formulation Agent Skill that distills complexity into **one defensible focus**, then aligns choices, capabilities, resources, and action behind it.
+An Agent Skill for choosing the work, project, or startup worth concentrating on—and building a compounding path around it.
 
 ## How it works
 
 ![Strategy focus architecture](assets/strategy-focus-review-canvas.png)
 
-The Skill combines Rumelt's strategy kernel, Porter's trade-offs and activity fit, Martin's choice cascade, nonlinear strategy lenses inspired by Peter Thiel and Paul Graham, and Zeng Ming's smart-business frameworks. The frameworks support the focus; they never replace it.
+It discovers signal in real interests, abilities, projects, and problems; selects one current Growth Focus; makes an owned project the vehicle; and compounds learning, assets, ownership, and impact without sacrificing the survival floor.
 
 ## What it produces
 
-- One current Strategic Focus per decision scope
-- Diagnosis, crux, alternatives, and strongest dissent
-- Strategy kernel, choice cascade, and advantage logic
-- Resource commitments, coherent actions, explicit no-list, and invalidation conditions
+- One current Growth Focus with a real exclusion
+- Evidence of personal fit and external value
+- An owned project or founder thesis
+- One compounding engine, resource commitments, and reality tests
+- A survival floor with persist, pivot, and stop conditions
 
 ## Install
 
@@ -26,9 +27,9 @@ cp -R formulate-strategy/formulate-strategy ~/.codex/skills/
 ## Use
 
 ```text
-Use $formulate-strategy to identify my single strategic focus and build the choices, trade-offs, capabilities, and coherent actions that support it.
+Use $formulate-strategy to identify the one field, project, or startup worth concentrating on now and build a compounding path around it.
 ```
 
-See [research provenance](formulate-strategy/references/research-provenance.md) for the methodological sources and their limitations.
+See [research provenance](formulate-strategy/references/research-provenance.md) for the source architecture and its limits.
 
 MIT licensed.

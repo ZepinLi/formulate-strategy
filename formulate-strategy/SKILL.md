@@ -1,154 +1,158 @@
 ---
 name: formulate-strategy
-description: "Formulate or critique personal, product, organizational, and business strategy by selecting one current strategic focus and supporting it with diagnosis, real alternatives, explicit trade-offs, resource concentration, and coherent action. Use for strategy, strategic direction, zero-to-one or 10x opportunities, competitive positioning, platform/ecosystem/data/AI strategy, personal strategy, 战略制定, 战略方向, or 个人战略; do not use for routine planning, scheduling, or task management."
+description: "Choose one current growth focus and build a compounding path around a field, problem, owned project, or startup. Use for personal growth, life or career direction, what to work on, ambitious personal projects, creator or founder development, startup ideas, early users, startup growth, and survival; 个人成长, 人生方向, 职业方向, 个人项目, 创业方向. Do not use for mature-company, platform, ecosystem, general product, organizational strategy, habits, scheduling, task management, or generic life coaching."
 ---
 
 # Formulate Strategy
 
-Turn an ambition, problem, or collection of goals into **one current Strategic Focus** supported by diagnosis, choices, capabilities, concentrated resources, coherent actions, and evidence. Treat strategy as an integrated theory of how to overcome the critical challenge, not as vision language, targets, best practices, or a long task list.
+Help a person choose the field, problem, project, or startup most worth concentrating on now, then build a path that compounds capability, work, ownership, and impact around it.
 
-One strategy at one decision scope has exactly one Strategic Focus. Other priorities may appear only as supporting capabilities, constraints, enabling actions, bounded validation experiments, or explicit exclusions. Analyze genuinely separate decision scopes separately rather than presenting coequal focuses.
+The primary outcome is exactly one **Current Growth Focus** for one decision scope. It is a present allocation choice, not a permanent identity or a prediction of the user's whole life. Other priorities may appear only as constraints, maintenance requirements, supporting capabilities, deferred options, or explicit exclusions.
 
-Use English by default. Use another language when the user explicitly requests it or the established conversation clearly requires it. Keep canonical strategic terms stable when translating.
+Use English by default. Use another language when the user requests it or clearly establishes that preference. Keep core terms stable when translating.
 
-## Route the request
+## Scope and routing
 
-Use the universal workflow below for every strategy request. Load only the references that materially apply:
+Use this skill for:
 
-- For an individual's life, career, identity, portfolio, or major commitment, read [references/personal-strategy.md](references/personal-strategy.md).
-- For zero-to-one, 10x, startup, power-law, contrarian, breakthrough, or asymmetric-upside questions, read [references/nonlinear-strategy.md](references/nonlinear-strategy.md).
-- For platform, ecosystem, network, data, AI, C2B, or digitally mediated business questions, read [references/smart-business-strategy.md](references/smart-business-strategy.md).
-- Lenses may be combined, but synthesize one strategy with one Strategic Focus. Do not emit separate framework reports or let a lens become another priority.
-- Read [references/research-provenance.md](references/research-provenance.md) only when the user asks for sources, methodology, an audit, or an update to the skill.
+- Personal growth, life or career direction, and deciding what to work on
+- Choosing among fields, problems, personal projects, research, or creator paths
+- Building rare capabilities, a body of work, an audience, reputation, or ownership
+- Deciding whether to pursue a startup as a founder-growth path
+- Startup ideas, early users, founder involvement, growth quality, runway, and survival
 
-Do not invoke this skill for routine execution plans, daily schedules, reminders, or task management unless the user is actually reconsidering the choices that govern those activities.
+When a startup, founder path, early user, growth, or survival question is material, read [references/founder-growth.md](references/founder-growth.md). Read [references/research-provenance.md](references/research-provenance.md) only when the user asks for sources, methodology, an audit, or an update to the skill.
 
-## Choose the interaction mode
+Do not use this skill for mature-company strategy, platform or ecosystem strategy, general product strategy, organizational design, AI strategy detached from the founder's own growth choice, daily habits, schedules, task management, generic motivation, therapy, or automated review. If a founder asks a company-level question, address only the founder's focus, learning, ownership, reality contact, or survival unless the request is reframed.
 
-Default to guided diagnosis when consequential information is missing. Ask no more than three questions in a turn, and ask only questions whose answers could change the diagnosis, eliminate an option, or reverse the recommendation. Prefer questions about the decision, constraint, evidence, or trade-off over requests for broad background.
+## Interaction modes
 
-Use direct formulation when the user asks for a draft, comparison, recommendation, or critique and the available context is sufficient. Do not delay useful work for completeness: state material assumptions, produce the strongest provisional strategy possible, and identify the evidence that could overturn it. Label the focus **Provisional Strategic Focus** when it cannot pass every integrity gate.
+Default to **guided diagnosis** when missing information could change the direction. Ask no more than three questions in one turn, and ask only questions whose answers could change the focus, eliminate a path, or alter the survival boundary. Offer the partial diagnosis already supported instead of conducting a broad life inventory.
 
-If the user supplies documents or evidence, inspect them before asking for information they may already contain.
+Use **direct formulation** when the user requests a draft, comparison, recommendation, or critique and enough context exists. Mark material assumptions, distinguish them from facts, and produce the strongest supportable answer. When the evidence is insufficient, label the result **Provisional Exploration Focus** or **Provisional Growth Focus** and state what could overturn it.
 
-## Universal workflow
+If the user provides documents or evidence, inspect them before asking for information they may already contain.
 
-### 1. Frame the decision
+## Core distinctions
 
-Establish the strategic question, decision owner, relevant horizon, recognizable definition of success, constraints, and non-negotiables. Rewrite a vague prompt into a decision that admits mutually exclusive choices.
+Classify the situation before recommending a path:
 
-### 2. Diagnose the challenge and find the crux
+1. **Exploration deficit:** Too little real work has been done to reveal fit or demand.
+2. **Competing directions:** Several credible paths contend for the same scarce attention.
+3. **Growth plateau:** A chosen direction exists, but capability, ownership, output, or feedback is not compounding.
+4. **Startup validation:** A founder thesis needs contact with urgent users, growth-quality evidence, and a survival test.
+
+Do not treat reflection as evidence of fit. Prefer signals produced by actual work: sustained curiosity, unusual taste, repeated voluntary effort, aptitude demonstrated in outputs, problems personally encountered, people helped, user behavior, and where attention returns when it is free.
+
+## Workflow
+
+### 1. Frame what is worth pursuing
+
+Clarify what the user wants to create, contribute, learn, own, or become for the relevant horizon. Establish recognizable success, scarce resources, non-negotiable constraints, and the survival floor. Do not assume that growth means maximizing income, status, visibility, or startup scale.
 
 Separate:
 
-- **Facts:** directly observed or credibly sourced.
-- **Interpretations:** explanations inferred from the facts.
-- **Assumptions:** claims that must be true but are not yet established.
+- **Facts:** observed behavior, outputs, commitments, user evidence, or credible sources.
+- **Interpretations:** explanations inferred from those facts.
+- **Assumptions:** important claims not yet established.
 
-Examine structural forces, incentives, bottlenecks, current resource allocation, path dependence, and why the desired outcome is not already occurring. Identify the crux: the most important obstacle or opportunity that is both consequential and addressable.
+### 2. Discover directional signal
 
-Do not accept the user's initial problem statement uncritically. Offer a better diagnosis when the evidence supports one, and explain the difference.
+Look for convergence among:
 
-### 3. Generate real alternatives
+- Sustained interests and questions the user keeps returning to
+- Work that feels unusually engaging to this person but effortful to many others
+- Demonstrated aptitude, rate of learning, judgment, taste, and resourcefulness
+- Existing self-directed projects and the quality of work already produced
+- Real problems the user or reachable people experience intensely
+- Access to communities, collaborators, tools, distribution, or proprietary insight
+- The idea that occupies the user's background attention, and what currently displaces it
 
-Develop at least three genuinely different strategic options, including a credible status quo or continuation option. Alternatives must differ in where to focus, how advantage is created, resource commitments, or risk exposure—not merely in intensity or wording.
+Interests are hypotheses until tested through work and external response. Avoid inventing a personal profile from sparse anecdotes.
 
-For each option, state:
+### 3. Diagnose the crux
 
-- The governing thesis
-- Where to play and how to succeed there
-- Required commitments and reinforcing activities
-- What will not be pursued
-- The opportunity cost and principal failure mode
+Identify the most consequential addressable obstacle to compounding growth. Common cruxes include insufficient exploration, fragmented attention, lack of project ownership, weak reality contact, a missing capability, poor distribution, premature scale, or inadequate runway. Distinguish the crux from its symptoms and from a motivation slogan.
 
-### 4. Reverse-engineer what must be true
+### 4. Generate real paths
 
-For each option, identify the conditions required for success across demand or stakeholder behavior, capabilities, economics, timing, distribution, competition or alternatives, and implementation feasibility. Locate the barrier condition whose failure would most strongly invalidate the option.
+Develop at least three genuinely different paths, including a credible continuation or status-quo path. Paths must differ in field, problem, project, ownership structure, learning loop, or risk exposure—not merely in intensity.
 
-Prefer discriminating evidence and small reversible tests over exhaustive research. Do not fabricate certainty when the decision remains underdetermined.
+For each path, test:
+
+- **Attraction:** Is the work itself interesting enough to sustain depth?
+- **Personal fit:** What behavioral or output evidence supports aptitude and energy?
+- **External reality:** Who benefits, what problem changes, and what evidence exists?
+- **Compounding:** What asset becomes more valuable or productive with repeated work?
+- **Ownership:** What can the user lead, shape, publish, build, or economically own?
+- **Opportunity cost:** What attractive alternative receives less attention?
+- **Survival:** What downside, runway, health, relationship, or financial boundary applies?
+
+For every path, state what must be true, the weakest assumption, the smallest discriminating reality test, and the strongest failure mode. Use the outside view and relevant base rates without letting averages erase case-specific evidence.
 
 ### 5. Compare without pseudo-precision
 
-Use qualitative reasoning across:
+Compare paths qualitatively. Do not invent weighted scores, probabilities, or rankings without a defensible basis. Prefer judgment that exposes causal differences, trade-offs, reversibility, learning value, and affordable loss.
 
-- Alignment with the stated definition of success
-- Leverage and reinforcing effects
-- Existing or attainable capabilities
-- Opportunity cost and explicit trade-offs
-- Reversibility and option value
-- Downside exposure and survival
-- Critical uncertainty and evidence quality
+Recommend only after comparison. Present the strongest good-faith dissent and the observation that would reverse the recommendation.
 
-Do not invent weighted scores, probabilities, or numerical rankings without a defensible empirical basis. A comparison table is useful when it exposes differences; it is not a substitute for judgment.
+### 6. Converge on one Current Growth Focus
 
-### 6. Recommend and red-team
+Express the selected focus in one unambiguous sentence:
 
-Recommend a direction only after comparing alternatives. Explain why it is superior under the stated diagnosis and why the rejected options lose. Present the strongest good-faith counterargument and the evidence or event that would cause the recommendation to change.
+> For `[horizon]`, devote `[scarce resources]` to `[one field, problem, project, or startup]` to create `[valuable outcome]`, using `[personal edge]` and compounding through `[mechanism]`, while not pursuing `[major alternative]` and protecting `[survival floor]`.
 
-### 7. Converge on one Strategic Focus
+Adapt the grammar, but preserve:
 
-After comparing the alternatives, express the selected focus in one unambiguous sentence:
-
-> For `[horizon]`, concentrate `[scarce resources]` on `[chosen arena or target]` to overcome `[crux]` and achieve `[objective]` through `[decisive advantage mechanism]`, while deliberately not pursuing `[major alternatives]`.
-
-Adapt the grammar, but preserve all five elements:
-
-- One chosen arena or addressable target
-- One dominant objective and relevant horizon
-- One causal advantage or leverage mechanism
+- One field, problem, owned project, or startup
+- One valuable outcome and relevant horizon
+- Evidence-backed personal edge
+- One primary compounding mechanism
 - Disproportionate allocation of scarce resources
 - At least one consequential exclusion
+- A credible survival floor
 
-Do not impose a word count. The focus is invalid if it is only an aspiration, mission, metric, theme, framework, capability, or task; joins several priorities with “and”; chooses an arena without a theory of advantage; claims advantage without resource concentration; or excludes nothing attractive.
+A focus is invalid if it is only an identity, aspiration, metric, capability, theme, or task; bundles coequal directions; names a field without a valuable outcome; claims fit without behavioral evidence; names compounding without a causal mechanism; or excludes nothing attractive.
 
-If the evidence does not support one focus, continue guided diagnosis or issue a provisional focus with the decisive gaps and invalidation conditions. Never hide unresolved competing priorities inside broad wording.
+When the user lacks enough evidence to choose a durable direction, form one time-bounded **Provisional Exploration Focus** around a single field or problem. Use a small number of owned projects to produce information. Do not preserve a portfolio of vague possibilities as the focus.
 
-### 8. Build the supporting strategic framework
+### 7. Make an owned project the vehicle
 
-Produce both:
+Choose one project, body of work, or startup the user can substantially shape and learn from. Ownership may mean authorship, product control, direct responsibility, a durable audience relationship, intellectual property, code, or equity; it need not require leaving an employer. The vehicle must create observable work and contact with reality, not merely credentials or preparation.
 
-- **Strategy kernel:** diagnosis, guiding policy, and coherent actions.
-- **Choice cascade:** aspiration, where to play, how to win, required capabilities, and enabling systems.
-- **Advantage and capability logic:** why the chosen mechanism can create leverage and what must make it work.
+For a startup path, integrate the founder lens into the same focus. Do not emit a separate startup framework or recommend quitting before affordable-loss and runway conditions support it.
 
-Treat these as support for the focus, not parallel outputs competing for attention. Use this hierarchy:
+### 8. Build the compounding and commitment logic
 
-1. Diagnosis and crux explain why this is the right target.
-2. Strategic Focus makes the singular concentration choice.
-3. The choice cascade specifies where to play and how to succeed.
-4. Capabilities and the activity system explain how the advantage is produced.
-5. Resource commitments and the no-list make the focus observable.
-6. Evidence, strongest dissent, and invalidation conditions establish when the focus should not be trusted.
+Name one primary compounding engine and the few capabilities it requires. Possible assets include skill, judgment, reusable work, code, audience, reputation, relationships, capital, or equity. Explain the causal loop: repeated work must improve the asset, and the improved asset must increase the quality, reach, speed, learning, or ownership of future work.
 
-The actions must reinforce one another and express the focus. Name the shifts in money, time, talent, technology, attention, relationships, or other scarce resources; use quantities when evidence supports them, otherwise state the direction and relative concentration precisely. Include an explicit no-list. Limit validation actions to the minimum needed to resolve decisive uncertainty; do not expand into recurring review, daily productivity, or detailed project management unless separately requested.
+Make the focus observable through directional resource shifts in time, attention, money, relationships, or risk. State an explicit no-list, the minimum reality tests, and persist, pivot, or stop conditions. Keep these strategic; do not expand into daily routines, recurring review systems, or detailed task management.
 
 ## Output contract
 
-Derive the focus only after diagnosis and comparison, but lead the delivered answer with it for decision usefulness. Adapt depth to the stakes while preserving this logical order:
+Derive the focus after diagnosis and comparison, but lead the delivered answer with it:
 
-1. **Strategic Focus**
-2. **Decision Frame**
-3. **Diagnosis and Crux**
-4. **Alternatives and What Must Be True**
-5. **Recommendation and Strongest Dissent**
-6. **Supporting Strategic Framework** — strategy kernel, choice cascade, and advantage/capability logic
-7. **Resource Commitments, Coherent Actions, and No-List**
-8. **Critical Assumptions, Evidence Gaps, and Invalidation Conditions**
+1. **Current Growth Focus**
+2. **Why It Is Worth Working On**
+3. **Evidence of Personal Fit and External Reality**
+4. **Alternatives, Trade-offs, and No-List**
+5. **Owned Project or Startup Thesis**
+6. **Compounding Engine and Required Capabilities**
+7. **Resource Commitments and Minimum Reality Tests**
+8. **Survival Floor and Persist/Pivot/Stop Conditions**
 
-When still in guided diagnosis, provide the partial frame or diagnosis that is already supportable, then ask the questions. Do not pretend the final strategy is complete.
+When still in guided diagnosis, present only the parts currently supportable, then ask up to three consequential questions. Do not present a provisional direction as a completed strategy.
 
-## Strategy Integrity Gates
+## Growth Strategy Integrity Gates
 
-Do not present a strategy as complete unless it passes every gate:
+Do not present the strategy as complete unless it passes every gate:
 
-1. **Crux:** The selected challenge is important, causal, and addressable rather than a restatement of symptoms.
-2. **Focus:** Exactly one target and one dominant advantage mechanism govern the strategy.
-3. **Choice:** Credible alternatives were considered, with consequential trade-offs and a clear no-list.
-4. **External reality:** Customer, stakeholder, competitor, system, and base-rate evidence constrain the thesis; facts, interpretations, and assumptions remain distinct.
-5. **Power:** Available or attainable resources and capabilities can plausibly create distinctive leverage.
-6. **Commitment:** Resource shifts, mutually reinforcing activities, and exclusions make the focus observable rather than rhetorical.
-7. **Adaptability:** Decisive assumptions, contrary evidence, strongest dissent, reversibility where material, and invalidation conditions are explicit.
+1. **Worthiness:** The work creates something the user considers valuable, not merely status or motion.
+2. **Fit:** Sustained interest, demonstrated ability, or learning-rate evidence supports the direction.
+3. **Focus:** Exactly one current direction governs scarce-resource allocation and excludes a credible alternative.
+4. **Reality:** Real work, users, beneficiaries, or external evidence constrain the thesis; facts, interpretations, and assumptions remain distinct.
+5. **Ownership:** One project or body of work gives the user agency, responsibility, and durable learning or assets.
+6. **Compounding:** One credible mechanism makes future work more capable, valuable, reachable, or owned.
+7. **Survivability:** The downside is affordable, the survival floor is protected, and persist, pivot, or stop conditions are explicit.
 
-If a gate fails, continue guided diagnosis or label the strategy and focus provisional. One current focus does not mean permanent rigidity: preserve clarity about what would invalidate it without designing a recurring review system.
-
-Reject framework stacking, authority theatre, hard-coded values or life domains, arbitrary scoring, fixed annual cycles, and generic claims that more effort, more data, AI, a platform, or 10x ambition constitutes either a strategy or a Strategic Focus.
+If a gate fails, continue guided diagnosis or label the focus provisional. Reject framework stacking, authority theatre, credential collection without work, generic lists of life domains, startup romanticism, growth at any cost, blind all-in bets, arbitrary scoring, and attempts to disguise a goal list or productivity plan as strategy.

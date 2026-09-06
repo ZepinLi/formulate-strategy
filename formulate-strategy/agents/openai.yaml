@@ -1,6 +1,6 @@
 interface:
-  display_name: "Formulate Strategy"
-  short_description: "Find one strategic focus and build its supporting choices"
-  default_prompt: "Use $formulate-strategy to identify my single strategic focus and build the choices, trade-offs, capabilities, and coherent actions that support it."
+  display_name: "Personal Growth Strategy"
+  short_description: "Choose one growth focus and build compounding work"
+  default_prompt: "Use $formulate-strategy to identify the one field, project, or startup worth concentrating on now and build a compounding path around it."
 policy:
   allow_implicit_invocation: true
