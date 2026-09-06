@@ -18,57 +18,19 @@ It discovers signal in real interests, abilities, projects, and problems; select
 
 ## Install
 
-The portable package is `formulate-strategy/`: `SKILL.md` and its `references/` follow the open Agent Skills format. `agents/openai.yaml` only supplies Codex UI metadata and is safely ignored by Claude and Cursor.
+Clone the repository first, then run the platform-specific configuration below from its root. The portable package is `formulate-strategy/`; `agents/openai.yaml` only supplies Codex UI metadata.
 
-### Codex
+| Platform | Scope | Target | Install / import | Invoke |
+| --- | --- | --- | --- | --- |
+| All | Prepare | Local checkout | `git clone https://github.com/ZepinLi/formulate-strategy.git && cd formulate-strategy` | — |
+| Codex | Global | `~/.codex/skills/formulate-strategy/` | `mkdir -p ~/.codex/skills && cp -R formulate-strategy/formulate-strategy ~/.codex/skills/` | `$formulate-strategy` |
+| Claude Code | Global | `~/.claude/skills/formulate-strategy/` | `mkdir -p ~/.claude/skills && cp -R formulate-strategy/formulate-strategy ~/.claude/skills/` | `/formulate-strategy` or automatic |
+| Claude Code | Project | `.claude/skills/formulate-strategy/` | `mkdir -p .claude/skills && cp -R formulate-strategy/formulate-strategy .claude/skills/` | `/formulate-strategy` |
+| Cursor | Global | `~/.cursor/skills/formulate-strategy/` | `mkdir -p ~/.cursor/skills && cp -R formulate-strategy/formulate-strategy ~/.cursor/skills/` | `/formulate-strategy` or `@` |
+| Cursor | Project | `.cursor/skills/formulate-strategy/` | `mkdir -p .cursor/skills && cp -R formulate-strategy/formulate-strategy .cursor/skills/` | `/formulate-strategy` or `@` |
+| Claude.ai | Account | Customize → Skills | `zip -r /tmp/formulate-strategy.zip formulate-strategy`, then upload and enable | Natural language |
 
-```bash
-git clone https://github.com/ZepinLi/formulate-strategy.git
-mkdir -p ~/.codex/skills
-cp -R formulate-strategy/formulate-strategy ~/.codex/skills/
-```
-
-### Claude Code
-
-Global installation:
-
-```bash
-mkdir -p ~/.claude/skills
-cp -R formulate-strategy/formulate-strategy ~/.claude/skills/
-```
-
-For one project only, copy it to `.claude/skills/` instead. Invoke it with `/formulate-strategy` or let Claude select it automatically.
-
-```bash
-mkdir -p .claude/skills
-cp -R formulate-strategy/formulate-strategy .claude/skills/
-```
-
-### Cursor
-
-Global installation:
-
-```bash
-mkdir -p ~/.cursor/skills
-cp -R formulate-strategy/formulate-strategy ~/.cursor/skills/
-```
-
-For one project only, copy it to `.cursor/skills/`. Cursor also discovers compatible skills from `.claude/skills/` and `.codex/skills/`.
-
-```bash
-mkdir -p .cursor/skills
-cp -R formulate-strategy/formulate-strategy .cursor/skills/
-```
-
-### Claude.ai
-
-Create an archive from the repository root and upload it in **Customize → Skills**:
-
-```bash
-zip -r /tmp/formulate-strategy.zip formulate-strategy
-```
-
-Enable the uploaded skill after import. See the [Claude Code skills guide](https://code.claude.com/docs/en/skills) and [Cursor Agent Skills guide](https://cursor.com/docs/skills) for platform-specific settings.
+See the [Claude Code skills guide](https://code.claude.com/docs/en/skills) and [Cursor Agent Skills guide](https://cursor.com/docs/skills) for platform settings.
 
 ## Use
 
