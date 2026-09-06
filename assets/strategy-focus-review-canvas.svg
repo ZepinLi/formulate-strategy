@@ -41,6 +41,12 @@
   <rect data-graph-role="background" width="1200" height="900" fill="#f7f2e8"/>
   <rect data-graph-role="decoration" width="1200" height="900" fill="url(#paper-grid)"/>
 
+  <g id="title-block" data-graph-role="reserved" data-reserved-kind="title"
+     data-graph-bounds="70,28,760,91">
+    <text x="70" y="55" class="title">Strategy Focus</text>
+    <text x="70" y="82" class="subtitle">One allocation choice, supported by one coherent strategic architecture</text>
+  </g>
+
   <g id="review-stamp" data-graph-role="reserved" data-reserved-kind="stamp"
      data-graph-bounds="900,28,1130,92">
     <rect x="900" y="28" width="230" height="64" rx="3" fill="#fffdf7"
