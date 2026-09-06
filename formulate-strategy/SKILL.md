@@ -1,6 +1,6 @@
 ---
 name: formulate-strategy
-description: "Choose one current growth focus and build a compounding path around a field, problem, owned project, or startup. Use for personal growth, life or career direction, what to work on, ambitious personal projects, creator or founder development, startup ideas, early users, startup growth, and survival; 个人成长, 人生方向, 职业方向, 个人项目, 创业方向. Do not use for mature-company, platform, ecosystem, general product, organizational strategy, habits, scheduling, task management, or generic life coaching."
+description: "Chooses one current growth focus and builds a compounding path around a field, problem, owned project, or startup. Applies to personal growth, life or career direction, what to work on, ambitious personal projects, creator or founder development, startup ideas, early users, startup growth, and survival; Chinese triggers include 个人成长, 人生方向, 职业方向, 个人项目, 创业方向. Excludes mature-company, platform, ecosystem, general product, organizational strategy, habits, scheduling, task management, and generic life coaching."
 ---
 
 # Formulate Strategy

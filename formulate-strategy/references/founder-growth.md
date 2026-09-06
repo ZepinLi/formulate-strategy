@@ -4,6 +4,16 @@ Read this reference when the user is considering a startup, developing as a foun
 
 Integrate this lens into one Current Growth Focus. Do not produce a separate company-strategy report, platform framework, organization design, fundraising playbook, or growth-at-any-cost plan.
 
+## Contents
+
+- Route by founder stage
+- Founder–problem signal
+- One startup thesis
+- Early unscalable work and growth quality
+- Founder involvement
+- Survival, persist, pivot, and stop
+- Primary Paul Graham sources
+
 ## Route by founder stage
 
 Identify the stage before giving advice:
