@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900"
+     data-generator="fireworks-tech-graph" data-schema-version="1"
+     data-style-id="9" data-visual-theme="C4 Review Canvas" data-diagram-type="architecture"
+     data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase"
+     data-max-bends-per-edge="2" data-max-total-bends="8" data-max-route-stretch="1.35"
+     data-max-bridged-crossings="0" data-min-node-gap="40" data-min-container-gutter="20"
+     data-min-label-clearance="4" data-min-segment-length="16">
+  <defs>
+    <pattern id="paper-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#8c7d68" stroke-width="0.45" opacity="0.12"/>
+    </pattern>
+    <marker id="arrow-primary" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#365f56"/>
+    </marker>
+    <marker id="arrow-review" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#a44a3f"/>
+    </marker>
+    <style>
+      text { font-family: Avenir, 'Avenir Next', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .title { font-size: 30px; font-weight: 650; fill: #24312f; letter-spacing: -0.35px; }
+      .subtitle { font-size: 14px; font-weight: 400; fill: #6f6a5f; }
+      .boundary-label { font-size: 11px; font-weight: 700; fill: #6f6658; letter-spacing: 1.8px; }
+      .type { font-size: 11px; font-weight: 750; fill: #365f56; letter-spacing: 1.55px; }
+      .type-light { font-size: 11px; font-weight: 750; fill: #dce7e1; letter-spacing: 1.55px; }
+      .card-title { font-size: 16px; font-weight: 650; fill: #24312f; }
+      .card-copy { font-size: 13px; font-weight: 400; fill: #655f55; }
+      .focus-title { font-size: 23px; font-weight: 680; fill: #fffdf7; letter-spacing: 0.4px; }
+      .focus-copy { font-size: 13px; font-weight: 420; fill: #f0eee7; }
+      .micro { font-size: 12px; font-weight: 650; fill: #4f5b58; letter-spacing: 0.2px; }
+      .gate { font-size: 11px; font-weight: 720; fill: #365f56; letter-spacing: 0.35px; }
+      .outcome { font-size: 16px; font-weight: 680; fill: #fffdf7; letter-spacing: 0.2px; }
+      .stamp-kicker { font-size: 10px; font-weight: 750; fill: #a44a3f; letter-spacing: 1.55px; }
+      .stamp-main { font-size: 14px; font-weight: 720; fill: #24312f; letter-spacing: 0.75px; }
+      .edge-label { font-size: 11px; font-weight: 750; fill: #365f56; letter-spacing: 0.7px; }
+      .feedback-label { font-size: 11px; font-weight: 750; fill: #a44a3f; letter-spacing: 1.2px; }
+      .legend { font-size: 12px; font-weight: 430; fill: #655f55; }
+      .footnote { font-size: 11px; font-weight: 430; fill: #8c7d68; }
+    </style>
+  </defs>
+
+  <rect data-graph-role="background" width="1200" height="900" fill="#f7f2e8"/>
+  <rect data-graph-role="decoration" width="1200" height="900" fill="url(#paper-grid)"/>
+
+  <g id="review-stamp" data-graph-role="reserved" data-reserved-kind="stamp"
+     data-graph-bounds="900,28,1130,92">
+    <rect x="900" y="28" width="230" height="64" rx="3" fill="#fffdf7"
+          stroke="#a44a3f" stroke-width="1.4" stroke-dasharray="6 4"/>
+    <rect data-graph-role="decoration" data-owner="review-stamp"
+          x="903" y="26" width="228" height="65" rx="3" fill="none"
+          stroke="#a44a3f" stroke-width="0.8" opacity="0.28"/>
+    <text x="916" y="49" class="stamp-kicker">STRATEGY REVIEW</text>
+    <text x="916" y="73" class="stamp-main">SINGLE FOCUS · TEST READY</text>
+  </g>
+
+  <g id="strategy-canvas" data-graph-role="container" data-container-id="strategy-canvas"
+     data-semantic-role="boundary" data-graph-bounds="70,125,1130,815">
+    <rect x="70" y="125" width="1060" height="690" rx="4" fill="#fbf7ed"
+          stroke="#8c7d68" stroke-width="1.35" stroke-dasharray="8 6"/>
+    <rect data-graph-role="decoration" data-owner="strategy-canvas"
+          x="72" y="123" width="1059" height="691" rx="4" fill="none"
+          stroke="#8c7d68" stroke-width="0.8" stroke-dasharray="7 7" opacity="0.28"/>
+    <text x="94" y="153" class="boundary-label">SINGLE-FOCUS STRATEGY ARCHITECTURE</text>
+    <rect id="strategy-canvas-header" data-graph-role="reserved" data-reserved-kind="container-header"
+          x="88" y="136" width="320" height="26" fill="none" stroke="none"/>
+  </g>
+
+  <!-- Pencil echoes sit behind exact semantic relationships. -->
+  <path data-graph-role="decoration" data-owner="basis-focus"
+        d="M 598,280 L 601,320" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+  <path data-graph-role="decoration" data-owner="focus-choices"
+        d="M 602,430 L 599,470" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+  <path data-graph-role="decoration" data-owner="choices-commitment"
+        d="M 598,585 L 602,625" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+  <path data-graph-role="decoration" data-owner="commitment-integrity"
+        d="M 601,695 L 598,735" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+
+  <!-- Exact semantic relationship spine. -->
+  <path id="basis-focus" data-graph-role="edge" data-edge-id="basis-focus"
+        data-source="basis" data-target="focus" data-edge-kind="flow" data-flow="control"
+        data-bends="0" data-route-stretch="1" data-bridges=""
+        d="M 600,280 L 600,320" fill="none" stroke="#365f56" stroke-width="2"
+        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+  <path id="focus-choices" data-graph-role="edge" data-edge-id="focus-choices"
+        data-source="focus" data-target="choices" data-edge-kind="flow" data-flow="control"
+        data-bends="0" data-route-stretch="1" data-bridges=""
+        d="M 600,430 L 600,470" fill="none" stroke="#365f56" stroke-width="2"
+        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+  <path id="choices-commitment" data-graph-role="edge" data-edge-id="choices-commitment"
+        data-source="choices" data-target="commitment" data-edge-kind="flow" data-flow="control"
+        data-bends="0" data-route-stretch="1" data-bridges=""
+        d="M 600,585 L 600,625" fill="none" stroke="#365f56" stroke-width="2"
+        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+  <path id="commitment-integrity" data-graph-role="edge" data-edge-id="commitment-integrity"
+        data-source="commitment" data-target="integrity" data-edge-kind="flow" data-flow="control"
+        data-bends="0" data-route-stretch="1" data-bridges=""
+        d="M 600,695 L 600,735" fill="none" stroke="#365f56" stroke-width="2"
+        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+  <path id="integrity-outcome" data-graph-role="edge" data-edge-id="integrity-outcome"
+        data-source="integrity" data-target="outcome" data-edge-kind="flow" data-flow="control"
+        data-bends="0" data-route-stretch="1" data-bridges=""
+        d="M 780,765 L 830,765" fill="none" stroke="#365f56" stroke-width="2"
+        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+  <path id="integrity-reframe" data-graph-role="edge" data-edge-id="integrity-reframe"
+        data-source="integrity" data-target="basis" data-edge-kind="flow" data-flow="feedback"
+        data-bends="2" data-route-stretch="1.32" data-bridges=""
+        d="M 130,765 L 100,765 L 100,227.5 L 130,227.5" fill="none"
+        stroke="#a44a3f" stroke-width="1.8" stroke-dasharray="7 5"
+        stroke-linecap="round" marker-end="url(#arrow-review)"/>
+
+  <!-- 01 · Strategic basis: one unified review band. -->
+  <g id="node-basis" data-graph-role="node" data-node-id="basis" data-semantic-role="rect"
+     data-parent="strategy-canvas" data-graph-bounds="130,175,1070,280">
+    <rect x="130" y="175" width="940" height="105" rx="4" fill="#fffdf7"
+          stroke="#8c7d68" stroke-width="1.45"/>
+    <rect data-graph-role="decoration" data-owner="node-basis"
+          x="132" y="173" width="939" height="106" rx="4" fill="none"
+          stroke="#8c7d68" stroke-width="0.75" opacity="0.22"/>
+    <line x1="443" y1="190" x2="443" y2="265" stroke="#c9bda9" stroke-width="1"/>
+    <line x1="756" y1="190" x2="756" y2="265" stroke="#c9bda9" stroke-width="1"/>
+    <text x="150" y="199" class="type">01 · STRATEGIC BASIS</text>
+
+    <text x="150" y="229" class="card-title">Diagnosis + crux</text>
+    <text x="150" y="253" class="card-copy">Facts · structural forces · addressable challenge</text>
+
+    <text x="463" y="229" class="card-title">Alternatives</text>
+    <text x="463" y="253" class="card-copy">Genuine choices · trade-offs · what must be true</text>
+
+    <text x="776" y="229" class="card-title">Evidence + dissent</text>
+    <text x="776" y="253" class="card-copy">Outside view · base rates · strongest countercase</text>
+  </g>
+
+  <!-- 02 · The singular decision core. -->
+  <g id="node-focus" data-graph-role="node" data-node-id="focus" data-semantic-role="double_rect"
+     data-parent="strategy-canvas" data-graph-bounds="210,320,990,430">
+    <rect x="210" y="320" width="780" height="110" rx="5" fill="#24312f"
+          stroke="#365f56" stroke-width="2"/>
+    <rect data-graph-role="decoration" data-owner="node-focus"
+          x="213" y="317" width="779" height="111" rx="5" fill="none"
+          stroke="#365f56" stroke-width="1" opacity="0.38"/>
+    <rect x="220" y="327" width="760" height="99" rx="3" fill="none"
+          stroke="#d8e2dc" stroke-width="0.8" stroke-dasharray="5 5" opacity="0.34"/>
+    <text x="232" y="345" class="type-light">02 · DECISION CORE</text>
+    <text x="600" y="369" text-anchor="middle" class="focus-title">ONE STRATEGIC FOCUS</text>
+    <text x="600" y="386" text-anchor="middle" class="focus-copy">For [horizon], concentrate [scarce resources] on [chosen arena]</text>
+    <text x="600" y="402" text-anchor="middle" class="focus-copy">to overcome [crux] and reach [objective] through [decisive advantage]</text>
+    <text x="600" y="418" text-anchor="middle" class="focus-copy">— while excluding [major alternatives]</text>
+  </g>
+
+  <!-- 03 · The framework is one supporting choice system. -->
+  <g id="node-choices" data-graph-role="node" data-node-id="choices" data-semantic-role="rect"
+     data-parent="strategy-canvas" data-graph-bounds="130,470,1070,585">
+    <rect x="130" y="470" width="940" height="115" rx="4" fill="#fffdf7"
+          stroke="#365f56" stroke-width="1.55"/>
+    <rect data-graph-role="decoration" data-owner="node-choices"
+          x="128" y="472" width="941" height="114" rx="4" fill="none"
+          stroke="#365f56" stroke-width="0.8" opacity="0.20"/>
+    <line x1="443" y1="490" x2="443" y2="570" stroke="#b7c5bd" stroke-width="1"/>
+    <line x1="756" y1="490" x2="756" y2="570" stroke="#b7c5bd" stroke-width="1"/>
+    <text x="150" y="495" class="type">03 · SUPPORTING CHOICE SYSTEM</text>
+    <text x="1050" y="495" text-anchor="end" class="micro">KERNEL · CASCADE · ACTIVITY FIT</text>
+
+    <text x="286" y="528" text-anchor="middle" class="card-title">WHERE TO PLAY</text>
+    <text x="286" y="555" text-anchor="middle" class="card-copy">arena · customer · scope</text>
+
+    <text x="600" y="528" text-anchor="middle" class="card-title">HOW TO WIN</text>
+    <text x="600" y="555" text-anchor="middle" class="card-copy">distinctive value · leverage</text>
+
+    <text x="913" y="528" text-anchor="middle" class="card-title">WITH WHAT</text>
+    <text x="913" y="555" text-anchor="middle" class="card-copy">capabilities · systems · partners</text>
+  </g>
+
+  <!-- 04 · Allocation makes the focus observable. -->
+  <g id="node-commitment" data-graph-role="node" data-node-id="commitment" data-semantic-role="rect"
+     data-parent="strategy-canvas" data-graph-bounds="130,625,1070,695">
+    <rect x="130" y="625" width="940" height="70" rx="4" fill="#eef1e9"
+          stroke="#365f56" stroke-width="1.5"/>
+    <rect data-graph-role="decoration" data-owner="node-commitment"
+          x="132" y="623" width="939" height="71" rx="4" fill="none"
+          stroke="#365f56" stroke-width="0.75" opacity="0.20"/>
+    <line x1="443" y1="638" x2="443" y2="683" stroke="#b7c5bd" stroke-width="1"/>
+    <line x1="756" y1="638" x2="756" y2="683" stroke="#b7c5bd" stroke-width="1"/>
+    <text x="150" y="648" class="type">04 · COMMITMENT SYSTEM</text>
+    <text x="286" y="678" text-anchor="middle" class="card-title">RESOURCE CONCENTRATION</text>
+    <text x="600" y="678" text-anchor="middle" class="card-title">COHERENT ACTIONS</text>
+    <text x="913" y="678" text-anchor="middle" class="card-title">EXPLICIT NO-LIST</text>
+  </g>
+
+  <!-- 05 · Integrity and outcome share one terminal review rail. -->
+  <g id="node-integrity" data-graph-role="node" data-node-id="integrity" data-semantic-role="rect"
+     data-parent="strategy-canvas" data-graph-bounds="130,735,780,795">
+    <rect x="130" y="735" width="650" height="60" rx="4" fill="#fffdf7"
+          stroke="#a44a3f" stroke-width="1.5"/>
+    <rect data-graph-role="decoration" data-owner="node-integrity"
+          x="128" y="737" width="651" height="59" rx="4" fill="none"
+          stroke="#a44a3f" stroke-width="0.75" opacity="0.22"/>
+    <text x="150" y="758" class="type" style="fill:#a44a3f">05 · INTEGRITY</text>
+    <text x="150" y="779" class="card-copy">Seven gates</text>
+
+    <g transform="translate(320,752)">
+      <rect x="0" y="0" width="58" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+      <text x="29" y="18" text-anchor="middle" class="gate">CRUX</text>
+      <rect x="64" y="0" width="58" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+      <text x="93" y="18" text-anchor="middle" class="gate">FOCUS</text>
+      <rect x="128" y="0" width="58" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+      <text x="157" y="18" text-anchor="middle" class="gate">CHOICE</text>
+      <rect x="192" y="0" width="58" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+      <text x="221" y="18" text-anchor="middle" class="gate">REALITY</text>
+      <rect x="256" y="0" width="58" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+      <text x="285" y="18" text-anchor="middle" class="gate">POWER</text>
+      <rect x="320" y="0" width="58" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+      <text x="349" y="18" text-anchor="middle" class="gate">COMMIT</text>
+      <rect x="384" y="0" width="58" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+      <text x="413" y="18" text-anchor="middle" class="gate">ADAPT</text>
+    </g>
+  </g>
+
+  <g id="node-outcome" data-graph-role="node" data-node-id="outcome" data-semantic-role="rect"
+     data-parent="strategy-canvas" data-graph-bounds="830,735,1070,795">
+    <rect x="830" y="735" width="240" height="60" rx="4" fill="#365f56"
+          stroke="#24312f" stroke-width="1.6"/>
+    <rect data-graph-role="decoration" data-owner="node-outcome"
+          x="832" y="733" width="239" height="61" rx="4" fill="none"
+          stroke="#24312f" stroke-width="0.8" opacity="0.26"/>
+    <text x="850" y="755" class="type-light">OUTCOME</text>
+    <text x="950" y="779" text-anchor="middle" class="outcome">DEFENSIBLE STRATEGY</text>
+  </g>
+
+  <!-- Relationship labels stay outside the semantic lines. -->
+  <g id="pass-label" data-graph-role="label" data-owner="integrity-outcome"
+     data-graph-bounds="787,739,823,758">
+    <rect x="787" y="739" width="36" height="19" rx="2" fill="#f7f2e8" opacity="0.98"/>
+    <text x="805" y="753" text-anchor="middle" class="edge-label">PASS</text>
+  </g>
+  <g id="reframe-label" data-graph-role="label" data-owner="integrity-reframe"
+     data-graph-bounds="79,472,96,558">
+    <text x="88" y="515" text-anchor="middle" class="feedback-label"
+          transform="rotate(-90 88 515)">REFRAME</text>
+  </g>
+
+  <g id="legend" data-graph-role="legend">
+    <rect id="legend-zone" data-graph-role="reserved" data-reserved-kind="legend"
+          x="70" y="838" width="430" height="28" fill="none" stroke="none"/>
+    <line data-graph-role="decoration" data-owner="legend-primary"
+          x1="70" y1="851" x2="102" y2="851" stroke="#365f56" stroke-width="2"
+          marker-end="url(#arrow-primary)"/>
+    <text x="116" y="855" class="legend">strategy logic</text>
+    <line data-graph-role="decoration" data-owner="legend-reframe"
+          x1="248" y1="851" x2="280" y2="851" stroke="#a44a3f" stroke-width="1.8"
+          stroke-dasharray="7 5" marker-end="url(#arrow-review)"/>
+    <text x="294" y="855" class="legend">reframe when a gate fails</text>
+  </g>
+
+  <g id="footer" data-graph-role="reserved" data-reserved-kind="footer"
+     data-graph-bounds="811,838,1130,875">
+    <text x="1130" y="855" text-anchor="end" class="footnote">STYLE 9 · C4 REVIEW CANVAS VISUAL LANGUAGE</text>
+    <text x="1130" y="875" text-anchor="end" class="footnote">GENERIC STRATEGY SEMANTICS · ONE DECISION SCOPE</text>
+  </g>
+</svg>
