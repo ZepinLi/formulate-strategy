@@ -1,6 +1,6 @@
 interface:
   display_name: "Personal Growth Strategy"
-  short_description: "Choose one growth focus and build compounding work"
-  default_prompt: "Use $formulate-strategy to identify the one field, project, or startup worth concentrating on now and build a compounding path around it."
+  short_description: "Explore directions, choose a focus, calibrate commitment"
+  default_prompt: "Use $formulate-strategy to explore uncertain directions or choose one current growth focus, then connect owned work, growth and returns, evidence, and affordable commitment."
 policy:
   allow_implicit_invocation: true
