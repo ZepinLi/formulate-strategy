@@ -5,6 +5,8 @@
      data-max-bends-per-edge="2" data-max-total-bends="8" data-max-route-stretch="1.35"
      data-max-bridged-crossings="0" data-min-node-gap="40" data-min-container-gutter="20"
      data-min-label-clearance="4" data-min-segment-length="16">
+  <title>Strategy Focus: explore, concentrate, and adjust with evidence</title>
+  <desc>Find worthwhile questions through real work. Bound exploration or select one growth focus, build owned work, distinguish compounding from valuable thresholds, and calibrate commitment while protecting life priorities and survival.</desc>
   <defs>
     <pattern id="paper-grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#8c7d68" stroke-width="0.45" opacity="0.12"/>
@@ -17,24 +19,24 @@
     </marker>
     <style>
       text { font-family: Avenir, 'Avenir Next', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-      .title { font-size: 30px; font-weight: 650; fill: #24312f; letter-spacing: -0.35px; }
+      .title { font-size: 30px; font-weight: 600; fill: #24312f; letter-spacing: -0.35px; }
       .subtitle { font-size: 14px; font-weight: 400; fill: #6f6a5f; }
       .boundary-label { font-size: 11px; font-weight: 700; fill: #6f6658; letter-spacing: 1.8px; }
-      .type { font-size: 11px; font-weight: 750; fill: #365f56; letter-spacing: 1.55px; }
-      .type-light { font-size: 11px; font-weight: 750; fill: #dce7e1; letter-spacing: 1.55px; }
-      .card-title { font-size: 16px; font-weight: 650; fill: #24312f; }
+      .type { font-size: 11px; font-weight: 700; fill: #365f56; letter-spacing: 1.55px; }
+      .type-light { font-size: 11px; font-weight: 700; fill: #dce7e1; letter-spacing: 1.55px; }
+      .card-title { font-size: 16px; font-weight: 600; fill: #24312f; }
       .card-copy { font-size: 13px; font-weight: 400; fill: #655f55; }
-      .focus-title { font-size: 23px; font-weight: 680; fill: #fffdf7; letter-spacing: 0.4px; }
-      .focus-copy { font-size: 13px; font-weight: 420; fill: #f0eee7; }
-      .micro { font-size: 12px; font-weight: 650; fill: #4f5b58; letter-spacing: 0.2px; }
-      .gate { font-size: 11px; font-weight: 720; fill: #365f56; letter-spacing: 0.35px; }
-      .outcome { font-size: 16px; font-weight: 680; fill: #fffdf7; letter-spacing: 0.2px; }
-      .stamp-kicker { font-size: 10px; font-weight: 750; fill: #a44a3f; letter-spacing: 1.55px; }
-      .stamp-main { font-size: 14px; font-weight: 720; fill: #24312f; letter-spacing: 0.75px; }
-      .edge-label { font-size: 11px; font-weight: 750; fill: #365f56; letter-spacing: 0.7px; }
-      .feedback-label { font-size: 11px; font-weight: 750; fill: #a44a3f; letter-spacing: 1.2px; }
-      .legend { font-size: 12px; font-weight: 430; fill: #655f55; }
-      .footnote { font-size: 11px; font-weight: 430; fill: #8c7d68; }
+      .focus-title { font-size: 23px; font-weight: 700; fill: #fffdf7; letter-spacing: 0.4px; }
+      .focus-copy { font-size: 13px; font-weight: 400; fill: #f0eee7; }
+      .micro { font-size: 12px; font-weight: 600; fill: #4f5b58; letter-spacing: 0.2px; }
+      .gate { font-size: 11px; font-weight: 700; fill: #365f56; letter-spacing: 0.35px; }
+      .outcome { font-size: 16px; font-weight: 700; fill: #fffdf7; letter-spacing: 0.2px; }
+      .stamp-kicker { font-size: 10px; font-weight: 700; fill: #a44a3f; letter-spacing: 1.55px; }
+      .stamp-main { font-size: 14px; font-weight: 700; fill: #24312f; letter-spacing: 0.75px; }
+      .edge-label { font-size: 11px; font-weight: 700; fill: #365f56; letter-spacing: 0.7px; }
+      .feedback-label { font-size: 11px; font-weight: 700; fill: #a44a3f; letter-spacing: 1.2px; }
+      .legend { font-size: 12px; font-weight: 400; fill: #655f55; }
+      .footnote { font-size: 11px; font-weight: 400; fill: #8c7d68; }
     </style>
   </defs>
 
@@ -44,7 +46,7 @@
   <g id="title-block" data-graph-role="reserved" data-reserved-kind="title"
      data-graph-bounds="70,28,760,91">
     <text x="70" y="55" class="title">Strategy Focus</text>
-    <text x="70" y="82" class="subtitle">Choose what to work on, build what you own, compound what matters</text>
+    <text x="70" y="82" class="subtitle">Explore through work, choose a focus, grow with evidence</text>
   </g>
 
   <g id="review-stamp" data-graph-role="reserved" data-reserved-kind="stamp"
@@ -55,7 +57,7 @@
           x="903" y="26" width="228" height="65" rx="3" fill="none"
           stroke="#a44a3f" stroke-width="0.8" opacity="0.28"/>
     <text x="916" y="49" class="stamp-kicker">GROWTH STRATEGY REVIEW</text>
-    <text x="916" y="73" class="stamp-main">ONE FOCUS · TEST READY</text>
+    <text x="916" y="73" class="stamp-main">EXPLORE · FOCUS · ADJUST</text>
   </g>
 
   <g id="strategy-canvas" data-graph-role="container" data-container-id="strategy-canvas"
@@ -123,19 +125,19 @@
           stroke="#8c7d68" stroke-width="0.75" opacity="0.22"/>
     <line x1="443" y1="190" x2="443" y2="265" stroke="#c9bda9" stroke-width="1"/>
     <line x1="756" y1="190" x2="756" y2="265" stroke="#c9bda9" stroke-width="1"/>
-    <text x="150" y="199" class="type">01 · DISCOVER SIGNAL</text>
+    <text x="150" y="199" class="type">01 · DISCOVER QUESTIONS</text>
 
-    <text x="150" y="229" class="card-title">Sustained curiosity</text>
-    <text x="150" y="253" class="card-copy">Recurring questions · voluntary attention · energy</text>
+    <text x="150" y="229" class="card-title">Curiosity + real work</text>
+    <text x="150" y="253" class="card-copy">Interest · output · difficult parts</text>
 
-    <text x="463" y="229" class="card-title">Evidence of aptitude</text>
-    <text x="463" y="253" class="card-copy">Work produced · learning rate · taste · judgment</text>
+    <text x="463" y="229" class="card-title">Gaps worth exploring</text>
+    <text x="463" y="253" class="card-copy">Anomalies · friction · open questions</text>
 
-    <text x="776" y="229" class="card-title">Problems worth solving</text>
-    <text x="776" y="253" class="card-copy">Lived friction · reachable people · valuable change</text>
+    <text x="776" y="229" class="card-title">Evidence + options</text>
+    <text x="776" y="253" class="card-copy">Fit · learning · future choices</text>
   </g>
 
-  <!-- 02 · The singular decision core. -->
+  <!-- 02 · A single allocation decision supports bounded exploration or concentration. -->
   <g id="node-focus" data-graph-role="node" data-node-id="focus" data-semantic-role="double_rect"
      data-parent="strategy-canvas" data-graph-bounds="210,320,990,430">
     <rect x="210" y="320" width="780" height="110" rx="5" fill="#24312f"
@@ -145,11 +147,11 @@
           stroke="#365f56" stroke-width="1" opacity="0.38"/>
     <rect x="220" y="327" width="760" height="99" rx="3" fill="none"
           stroke="#d8e2dc" stroke-width="0.8" stroke-dasharray="5 5" opacity="0.34"/>
-    <text x="232" y="345" class="type-light">02 · CURRENT DIRECTION</text>
-    <text x="600" y="369" text-anchor="middle" class="focus-title">ONE GROWTH FOCUS</text>
-    <text x="600" y="386" text-anchor="middle" class="focus-copy">For [horizon], devote [scarce resources] to [one field · problem · project · startup]</text>
-    <text x="600" y="402" text-anchor="middle" class="focus-copy">to create [valuable outcome] using [personal edge] and compound through [one mechanism]</text>
-    <text x="600" y="418" text-anchor="middle" class="focus-copy">— while excluding [major alternative] and protecting [survival floor]</text>
+    <text x="232" y="345" class="type-light">02 · CURRENT ALLOCATION</text>
+    <text x="600" y="369" text-anchor="middle" class="focus-title">ONE ALLOCATION FOCUS</text>
+    <text x="600" y="386" text-anchor="middle" class="focus-copy">Explore: one choice question, a few bounded trials, normally sequential</text>
+    <text x="600" y="402" text-anchor="middle" class="focus-copy">Concentrate: one direction, valuable outcome, supported edge and return mechanism</text>
+    <text x="600" y="418" text-anchor="middle" class="focus-copy">Trade off a credible alternative; protect the survival floor and life priorities</text>
   </g>
 
   <!-- 03 · Owned work turns direction into agency and evidence. -->
@@ -166,16 +168,16 @@
     <text x="1050" y="495" text-anchor="end" class="micro">AGENCY · OUTPUT · FEEDBACK</text>
 
     <text x="286" y="528" text-anchor="middle" class="card-title">OWNED PROJECT</text>
-    <text x="286" y="555" text-anchor="middle" class="card-copy">shape · ship · learn · retain agency</text>
+    <text x="286" y="555" text-anchor="middle" class="card-copy">one project · or bounded trials</text>
 
     <text x="600" y="528" text-anchor="middle" class="card-title">REALITY CONTACT</text>
-    <text x="600" y="555" text-anchor="middle" class="card-copy">users · beneficiaries · observed response</text>
+    <text x="600" y="555" text-anchor="middle" class="card-copy">research · users · observed response</text>
 
-    <text x="913" y="528" text-anchor="middle" class="card-title">PERSONAL EDGE</text>
-    <text x="913" y="555" text-anchor="middle" class="card-copy">interest · aptitude · access · judgment</text>
+    <text x="913" y="528" text-anchor="middle" class="card-title">CALIBRATE THE BET</text>
+    <text x="913" y="555" text-anchor="middle" class="card-copy">evidence · assumptions · dissent</text>
   </g>
 
-  <!-- 04 · One causal engine compounds future work. -->
+  <!-- 04 · Growth and return mechanisms determine the next commitment. -->
   <g id="node-commitment" data-graph-role="node" data-node-id="commitment" data-semantic-role="rect"
      data-parent="strategy-canvas" data-graph-bounds="130,625,1070,695">
     <rect x="130" y="625" width="940" height="70" rx="4" fill="#eef1e9"
@@ -185,10 +187,10 @@
           stroke="#365f56" stroke-width="0.75" opacity="0.20"/>
     <line x1="443" y1="638" x2="443" y2="683" stroke="#b7c5bd" stroke-width="1"/>
     <line x1="756" y1="638" x2="756" y2="683" stroke="#b7c5bd" stroke-width="1"/>
-    <text x="150" y="648" class="type">04 · COMPOUND WHAT MATTERS</text>
-    <text x="286" y="678" text-anchor="middle" class="card-title">LEARNING + CAPABILITY</text>
-    <text x="600" y="678" text-anchor="middle" class="card-title">WORK + CODE</text>
-    <text x="913" y="678" text-anchor="middle" class="card-title">AUDIENCE + OWNERSHIP</text>
+    <text x="150" y="648" class="type">04 · GROWTH + RETURNS</text>
+    <text x="286" y="678" text-anchor="middle" class="card-title">COMPOUNDING</text>
+    <text x="600" y="678" text-anchor="middle" class="card-title">VALUABLE THRESHOLD</text>
+    <text x="913" y="678" text-anchor="middle" class="card-title">EVIDENCE → COMMITMENT</text>
   </g>
 
   <!-- 05 · Reality and survivability govern commitment. -->
@@ -199,7 +201,7 @@
     <rect data-graph-role="decoration" data-owner="node-integrity"
           x="128" y="737" width="651" height="59" rx="4" fill="none"
           stroke="#a44a3f" stroke-width="0.75" opacity="0.22"/>
-    <text x="150" y="758" class="type" style="fill:#a44a3f">05 · REALITY + SURVIVAL</text>
+    <text x="150" y="758" class="type" style="fill:#a44a3f">05 · LIFE + SURVIVAL</text>
     <text x="150" y="779" class="card-copy">Seven gates</text>
 
     <g transform="translate(315,752)">
@@ -214,7 +216,7 @@
       <rect x="234" y="0" width="44" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
       <text x="256" y="18" text-anchor="middle" class="gate">OWN</text>
       <rect x="283" y="0" width="82" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
-      <text x="324" y="18" text-anchor="middle" class="gate">COMPOUND</text>
+      <text x="324" y="18" text-anchor="middle" class="gate">PROGRESS</text>
       <rect x="370" y="0" width="68" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
       <text x="404" y="18" text-anchor="middle" class="gate">SURVIVE</text>
     </g>
@@ -228,14 +230,14 @@
           x="832" y="733" width="239" height="61" rx="4" fill="none"
           stroke="#24312f" stroke-width="0.8" opacity="0.26"/>
     <text x="850" y="755" class="type-light">OUTCOME</text>
-    <text x="950" y="779" text-anchor="middle" class="outcome">COMPOUNDING PATH</text>
+    <text x="950" y="779" text-anchor="middle" class="outcome">SUPPORTED NEXT STEP</text>
   </g>
 
   <!-- Relationship labels stay outside the semantic lines. -->
   <g id="pass-label" data-graph-role="label" data-owner="integrity-outcome"
      data-graph-bounds="787,739,823,758">
     <rect x="787" y="739" width="36" height="19" rx="2" fill="#f7f2e8" opacity="0.98"/>
-    <text x="805" y="753" text-anchor="middle" class="edge-label">PASS</text>
+    <text x="805" y="753" text-anchor="middle" class="edge-label">READY</text>
   </g>
   <g id="reframe-label" data-graph-role="label" data-owner="integrity-reframe"
      data-graph-bounds="79,472,96,558">
@@ -249,16 +251,16 @@
     <line data-graph-role="decoration" data-owner="legend-primary"
           x1="70" y1="851" x2="102" y2="851" stroke="#365f56" stroke-width="2"
           marker-end="url(#arrow-primary)"/>
-    <text x="116" y="855" class="legend">growth logic</text>
+    <text x="116" y="855" class="legend">evidence into action</text>
     <line data-graph-role="decoration" data-owner="legend-reframe"
           x1="248" y1="851" x2="280" y2="851" stroke="#a44a3f" stroke-width="1.8"
           stroke-dasharray="7 5" marker-end="url(#arrow-review)"/>
-    <text x="294" y="855" class="legend">pivot or refocus when evidence fails</text>
+    <text x="294" y="855" class="legend">adjust with new evidence or life costs</text>
   </g>
 
   <g id="footer" data-graph-role="reserved" data-reserved-kind="footer"
      data-graph-bounds="811,838,1130,875">
-    <text x="1130" y="855" text-anchor="end" class="footnote">STYLE 9 · C4 REVIEW CANVAS VISUAL LANGUAGE</text>
-    <text x="1130" y="875" text-anchor="end" class="footnote">PERSONAL GROWTH + FOUNDER SEMANTICS · ONE CURRENT FOCUS</text>
+    <text x="1130" y="855" text-anchor="end" class="footnote">COMPOUNDING · THRESHOLDS · AFFORDABLE LOSS</text>
+    <text x="1130" y="875" text-anchor="end" class="footnote">PERSONAL · RESEARCH · CREATIVE · FOUNDER</text>
   </g>
 </svg>
