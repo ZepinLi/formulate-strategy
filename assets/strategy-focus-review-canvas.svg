@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1100" width="1200" height="1100"
      data-generator="fireworks-tech-graph" data-schema-version="1"
      data-style-id="9" data-visual-theme="C4 Review Canvas" data-diagram-type="architecture"
      data-semantic-profile="generic" data-semantic-valid="true" data-quality-profile="showcase"
      data-max-bends-per-edge="2" data-max-total-bends="8" data-max-route-stretch="1.35"
      data-max-bridged-crossings="0" data-min-node-gap="40" data-min-container-gutter="20"
      data-min-label-clearance="4" data-min-segment-length="16">
-  <title>Strategy Focus: explore, concentrate, and adjust with evidence</title>
-  <desc>Find worthwhile questions through real work. Bound exploration or select one growth focus, build owned work, distinguish compounding from valuable thresholds, and calibrate commitment while protecting life priorities and survival.</desc>
+  <title>Strategy: six connected judgments and a feedback loop</title>
+  <desc>Explain the situation, judge what matters, choose an entry, deploy resources, convert results, and update the judgment as results change conditions. Preserve essential support and affordable loss.</desc>
   <defs>
     <pattern id="paper-grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#8c7d68" stroke-width="0.45" opacity="0.12"/>
@@ -39,228 +39,119 @@
       .footnote { font-size: 11px; font-weight: 400; fill: #8c7d68; }
     </style>
   </defs>
-
-  <rect data-graph-role="background" width="1200" height="900" fill="#f7f2e8"/>
-  <rect data-graph-role="decoration" width="1200" height="900" fill="url(#paper-grid)"/>
-
-  <g id="title-block" data-graph-role="reserved" data-reserved-kind="title"
-     data-graph-bounds="70,28,760,91">
-    <text x="70" y="55" class="title">Strategy Focus</text>
-    <text x="70" y="82" class="subtitle">Explore through work, choose a focus, grow with evidence</text>
-  </g>
-
-  <g id="review-stamp" data-graph-role="reserved" data-reserved-kind="stamp"
-     data-graph-bounds="900,28,1130,92">
-    <rect x="900" y="28" width="230" height="64" rx="3" fill="#fffdf7"
-          stroke="#a44a3f" stroke-width="1.4" stroke-dasharray="6 4"/>
-    <rect data-graph-role="decoration" data-owner="review-stamp"
-          x="903" y="26" width="228" height="65" rx="3" fill="none"
-          stroke="#a44a3f" stroke-width="0.8" opacity="0.28"/>
-    <text x="916" y="49" class="stamp-kicker">GROWTH STRATEGY REVIEW</text>
-    <text x="916" y="73" class="stamp-main">EXPLORE · FOCUS · ADJUST</text>
-  </g>
-
-  <g id="strategy-canvas" data-graph-role="container" data-container-id="strategy-canvas"
-     data-semantic-role="boundary" data-graph-bounds="70,125,1130,815">
-    <rect x="70" y="125" width="1060" height="690" rx="4" fill="#fbf7ed"
-          stroke="#8c7d68" stroke-width="1.35" stroke-dasharray="8 6"/>
-    <rect data-graph-role="decoration" data-owner="strategy-canvas"
-          x="72" y="123" width="1059" height="691" rx="4" fill="none"
-          stroke="#8c7d68" stroke-width="0.8" stroke-dasharray="7 7" opacity="0.28"/>
-    <text x="94" y="153" class="boundary-label">PERSONAL GROWTH + FOUNDER STRATEGY</text>
-    <rect id="strategy-canvas-header" data-graph-role="reserved" data-reserved-kind="container-header"
-          x="88" y="136" width="320" height="26" fill="none" stroke="none"/>
-  </g>
-
-  <!-- Pencil echoes sit behind exact semantic relationships. -->
-  <path data-graph-role="decoration" data-owner="basis-focus"
-        d="M 598,280 L 601,320" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
-  <path data-graph-role="decoration" data-owner="focus-choices"
-        d="M 602,430 L 599,470" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
-  <path data-graph-role="decoration" data-owner="choices-commitment"
-        d="M 598,585 L 602,625" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
-  <path data-graph-role="decoration" data-owner="commitment-integrity"
-        d="M 601,695 L 598,735" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
-
-  <!-- Exact semantic relationship spine. -->
-  <path id="basis-focus" data-graph-role="edge" data-edge-id="basis-focus"
-        data-source="basis" data-target="focus" data-edge-kind="flow" data-flow="control"
-        data-bends="0" data-route-stretch="1" data-bridges=""
-        d="M 600,280 L 600,320" fill="none" stroke="#365f56" stroke-width="2"
-        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
-  <path id="focus-choices" data-graph-role="edge" data-edge-id="focus-choices"
-        data-source="focus" data-target="choices" data-edge-kind="flow" data-flow="control"
-        data-bends="0" data-route-stretch="1" data-bridges=""
-        d="M 600,430 L 600,470" fill="none" stroke="#365f56" stroke-width="2"
-        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
-  <path id="choices-commitment" data-graph-role="edge" data-edge-id="choices-commitment"
-        data-source="choices" data-target="commitment" data-edge-kind="flow" data-flow="control"
-        data-bends="0" data-route-stretch="1" data-bridges=""
-        d="M 600,585 L 600,625" fill="none" stroke="#365f56" stroke-width="2"
-        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
-  <path id="commitment-integrity" data-graph-role="edge" data-edge-id="commitment-integrity"
-        data-source="commitment" data-target="integrity" data-edge-kind="flow" data-flow="control"
-        data-bends="0" data-route-stretch="1" data-bridges=""
-        d="M 600,695 L 600,735" fill="none" stroke="#365f56" stroke-width="2"
-        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
-  <path id="integrity-outcome" data-graph-role="edge" data-edge-id="integrity-outcome"
-        data-source="integrity" data-target="outcome" data-edge-kind="flow" data-flow="control"
-        data-bends="0" data-route-stretch="1" data-bridges=""
-        d="M 780,765 L 830,765" fill="none" stroke="#365f56" stroke-width="2"
-        stroke-linecap="round" marker-end="url(#arrow-primary)"/>
-  <path id="integrity-reframe" data-graph-role="edge" data-edge-id="integrity-reframe"
-        data-source="integrity" data-target="basis" data-edge-kind="flow" data-flow="feedback"
-        data-bends="2" data-route-stretch="1.32" data-bridges=""
-        d="M 130,765 L 100,765 L 100,227.5 L 130,227.5" fill="none"
-        stroke="#a44a3f" stroke-width="1.8" stroke-dasharray="7 5"
-        stroke-linecap="round" marker-end="url(#arrow-review)"/>
-
-  <!-- 01 · Directional signal from real attention, work, and problems. -->
-  <g id="node-basis" data-graph-role="node" data-node-id="basis" data-semantic-role="rect"
-     data-parent="strategy-canvas" data-graph-bounds="130,175,1070,280">
-    <rect x="130" y="175" width="940" height="105" rx="4" fill="#fffdf7"
-          stroke="#8c7d68" stroke-width="1.45"/>
-    <rect data-graph-role="decoration" data-owner="node-basis"
-          x="132" y="173" width="939" height="106" rx="4" fill="none"
-          stroke="#8c7d68" stroke-width="0.75" opacity="0.22"/>
-    <line x1="443" y1="190" x2="443" y2="265" stroke="#c9bda9" stroke-width="1"/>
-    <line x1="756" y1="190" x2="756" y2="265" stroke="#c9bda9" stroke-width="1"/>
-    <text x="150" y="199" class="type">01 · DISCOVER QUESTIONS</text>
-
-    <text x="150" y="229" class="card-title">Curiosity + real work</text>
-    <text x="150" y="253" class="card-copy">Interest · output · difficult parts</text>
-
-    <text x="463" y="229" class="card-title">Gaps worth exploring</text>
-    <text x="463" y="253" class="card-copy">Anomalies · friction · open questions</text>
-
-    <text x="776" y="229" class="card-title">Evidence + options</text>
-    <text x="776" y="253" class="card-copy">Fit · learning · future choices</text>
-  </g>
-
-  <!-- 02 · A single allocation decision supports bounded exploration or concentration. -->
-  <g id="node-focus" data-graph-role="node" data-node-id="focus" data-semantic-role="double_rect"
-     data-parent="strategy-canvas" data-graph-bounds="210,320,990,430">
-    <rect x="210" y="320" width="780" height="110" rx="5" fill="#24312f"
-          stroke="#365f56" stroke-width="2"/>
-    <rect data-graph-role="decoration" data-owner="node-focus"
-          x="213" y="317" width="779" height="111" rx="5" fill="none"
-          stroke="#365f56" stroke-width="1" opacity="0.38"/>
-    <rect x="220" y="327" width="760" height="99" rx="3" fill="none"
-          stroke="#d8e2dc" stroke-width="0.8" stroke-dasharray="5 5" opacity="0.34"/>
-    <text x="232" y="345" class="type-light">02 · CURRENT ALLOCATION</text>
-    <text x="600" y="369" text-anchor="middle" class="focus-title">ONE ALLOCATION FOCUS</text>
-    <text x="600" y="386" text-anchor="middle" class="focus-copy">Explore: one choice question, a few bounded trials, normally sequential</text>
-    <text x="600" y="402" text-anchor="middle" class="focus-copy">Concentrate: one direction, valuable outcome, supported edge and return mechanism</text>
-    <text x="600" y="418" text-anchor="middle" class="focus-copy">Trade off a credible alternative; protect the survival floor and life priorities</text>
-  </g>
-
-  <!-- 03 · Owned work turns direction into agency and evidence. -->
-  <g id="node-choices" data-graph-role="node" data-node-id="choices" data-semantic-role="rect"
-     data-parent="strategy-canvas" data-graph-bounds="130,470,1070,585">
-    <rect x="130" y="470" width="940" height="115" rx="4" fill="#fffdf7"
-          stroke="#365f56" stroke-width="1.55"/>
-    <rect data-graph-role="decoration" data-owner="node-choices"
-          x="128" y="472" width="941" height="114" rx="4" fill="none"
-          stroke="#365f56" stroke-width="0.8" opacity="0.20"/>
-    <line x1="443" y1="490" x2="443" y2="570" stroke="#b7c5bd" stroke-width="1"/>
-    <line x1="756" y1="490" x2="756" y2="570" stroke="#b7c5bd" stroke-width="1"/>
-    <text x="150" y="495" class="type">03 · BUILD OWNED WORK</text>
-    <text x="1050" y="495" text-anchor="end" class="micro">AGENCY · OUTPUT · FEEDBACK</text>
-
-    <text x="286" y="528" text-anchor="middle" class="card-title">OWNED PROJECT</text>
-    <text x="286" y="555" text-anchor="middle" class="card-copy">one project · or bounded trials</text>
-
-    <text x="600" y="528" text-anchor="middle" class="card-title">REALITY CONTACT</text>
-    <text x="600" y="555" text-anchor="middle" class="card-copy">research · users · observed response</text>
-
-    <text x="913" y="528" text-anchor="middle" class="card-title">CALIBRATE THE BET</text>
-    <text x="913" y="555" text-anchor="middle" class="card-copy">evidence · assumptions · dissent</text>
-  </g>
-
-  <!-- 04 · Growth and return mechanisms determine the next commitment. -->
-  <g id="node-commitment" data-graph-role="node" data-node-id="commitment" data-semantic-role="rect"
-     data-parent="strategy-canvas" data-graph-bounds="130,625,1070,695">
-    <rect x="130" y="625" width="940" height="70" rx="4" fill="#eef1e9"
-          stroke="#365f56" stroke-width="1.5"/>
-    <rect data-graph-role="decoration" data-owner="node-commitment"
-          x="132" y="623" width="939" height="71" rx="4" fill="none"
-          stroke="#365f56" stroke-width="0.75" opacity="0.20"/>
-    <line x1="443" y1="638" x2="443" y2="683" stroke="#b7c5bd" stroke-width="1"/>
-    <line x1="756" y1="638" x2="756" y2="683" stroke="#b7c5bd" stroke-width="1"/>
-    <text x="150" y="648" class="type">04 · GROWTH + RETURNS</text>
-    <text x="286" y="678" text-anchor="middle" class="card-title">COMPOUNDING</text>
-    <text x="600" y="678" text-anchor="middle" class="card-title">VALUABLE THRESHOLD</text>
-    <text x="913" y="678" text-anchor="middle" class="card-title">EVIDENCE → COMMITMENT</text>
-  </g>
-
-  <!-- 05 · Reality and survivability govern commitment. -->
-  <g id="node-integrity" data-graph-role="node" data-node-id="integrity" data-semantic-role="rect"
-     data-parent="strategy-canvas" data-graph-bounds="130,735,780,795">
-    <rect x="130" y="735" width="650" height="60" rx="4" fill="#fffdf7"
-          stroke="#a44a3f" stroke-width="1.5"/>
-    <rect data-graph-role="decoration" data-owner="node-integrity"
-          x="128" y="737" width="651" height="59" rx="4" fill="none"
-          stroke="#a44a3f" stroke-width="0.75" opacity="0.22"/>
-    <text x="150" y="758" class="type" style="fill:#a44a3f">05 · LIFE + SURVIVAL</text>
-    <text x="150" y="779" class="card-copy">Seven gates</text>
-
-    <g transform="translate(315,752)">
-      <rect x="0" y="0" width="54" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
-      <text x="27" y="18" text-anchor="middle" class="gate">WORTH</text>
-      <rect x="59" y="0" width="42" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
-      <text x="80" y="18" text-anchor="middle" class="gate">FIT</text>
-      <rect x="106" y="0" width="54" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
-      <text x="133" y="18" text-anchor="middle" class="gate">FOCUS</text>
-      <rect x="165" y="0" width="64" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
-      <text x="197" y="18" text-anchor="middle" class="gate">REALITY</text>
-      <rect x="234" y="0" width="44" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
-      <text x="256" y="18" text-anchor="middle" class="gate">OWN</text>
-      <rect x="283" y="0" width="82" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
-      <text x="324" y="18" text-anchor="middle" class="gate">PROGRESS</text>
-      <rect x="370" y="0" width="68" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
-      <text x="404" y="18" text-anchor="middle" class="gate">SURVIVE</text>
-    </g>
-  </g>
-
-  <g id="node-outcome" data-graph-role="node" data-node-id="outcome" data-semantic-role="rect"
-     data-parent="strategy-canvas" data-graph-bounds="830,735,1070,795">
-    <rect x="830" y="735" width="240" height="60" rx="4" fill="#365f56"
-          stroke="#24312f" stroke-width="1.6"/>
-    <rect data-graph-role="decoration" data-owner="node-outcome"
-          x="832" y="733" width="239" height="61" rx="4" fill="none"
-          stroke="#24312f" stroke-width="0.8" opacity="0.26"/>
-    <text x="850" y="755" class="type-light">OUTCOME</text>
-    <text x="950" y="779" text-anchor="middle" class="outcome">SUPPORTED NEXT STEP</text>
-  </g>
-
-  <!-- Relationship labels stay outside the semantic lines. -->
-  <g id="pass-label" data-graph-role="label" data-owner="integrity-outcome"
-     data-graph-bounds="787,739,823,758">
-    <rect x="787" y="739" width="36" height="19" rx="2" fill="#f7f2e8" opacity="0.98"/>
-    <text x="805" y="753" text-anchor="middle" class="edge-label">READY</text>
-  </g>
-  <g id="reframe-label" data-graph-role="label" data-owner="integrity-reframe"
-     data-graph-bounds="79,472,96,558">
-    <text x="88" y="515" text-anchor="middle" class="feedback-label"
-          transform="rotate(-90 88 515)">PIVOT · REFOCUS</text>
-  </g>
-
-  <g id="legend" data-graph-role="legend">
-    <rect id="legend-zone" data-graph-role="reserved" data-reserved-kind="legend"
-          x="70" y="838" width="430" height="28" fill="none" stroke="none"/>
-    <line data-graph-role="decoration" data-owner="legend-primary"
-          x1="70" y1="851" x2="102" y2="851" stroke="#365f56" stroke-width="2"
-          marker-end="url(#arrow-primary)"/>
-    <text x="116" y="855" class="legend">evidence into action</text>
-    <line data-graph-role="decoration" data-owner="legend-reframe"
-          x1="248" y1="851" x2="280" y2="851" stroke="#a44a3f" stroke-width="1.8"
-          stroke-dasharray="7 5" marker-end="url(#arrow-review)"/>
-    <text x="294" y="855" class="legend">adjust with new evidence or life costs</text>
-  </g>
-
-  <g id="footer" data-graph-role="reserved" data-reserved-kind="footer"
-     data-graph-bounds="811,838,1130,875">
-    <text x="1130" y="855" text-anchor="end" class="footnote">COMPOUNDING · THRESHOLDS · AFFORDABLE LOSS</text>
-    <text x="1130" y="875" text-anchor="end" class="footnote">PERSONAL · RESEARCH · CREATIVE · FOUNDER</text>
-  </g>
-</svg>
+<rect data-graph-role="background" width="1200" height="1100" fill="#f7f2e8"/>
+<rect data-graph-role="decoration" width="1200" height="1100" fill="url(#paper-grid)"/>
+<g id="title-block" data-graph-role="reserved" data-reserved-kind="title" data-graph-bounds="70,28,820,92">
+<text x="70" y="55" class="title">Strategy: Judgment into Action</text>
+<text x="70" y="82" class="subtitle">Explain the situation, choose an entry, deploy resources, and revise with evidence</text>
+</g>
+<g id="review-stamp" data-graph-role="reserved" data-reserved-kind="stamp" data-graph-bounds="900,28,1130,92">
+<rect x="900" y="28" width="230" height="64" rx="3" fill="#fffdf7" stroke="#a44a3f" stroke-width="1.4" stroke-dasharray="6 4"/>
+<rect data-graph-role="decoration" data-owner="review-stamp" x="903" y="26" width="228" height="65" rx="3" fill="none" stroke="#a44a3f" stroke-width="0.8" opacity="0.28"/>
+<text x="916" y="49" class="stamp-kicker">STRATEGIC JUDGMENT</text>
+<text x="916" y="73" class="stamp-main">SIX CONNECTED STEPS</text>
+</g>
+<g id="strategy-canvas" data-graph-role="container" data-container-id="strategy-canvas" data-semantic-role="boundary" data-graph-bounds="70,125,1130,1015">
+<rect x="70" y="125" width="1060" height="890" rx="4" fill="#fbf7ed" stroke="#8c7d68" stroke-width="1.35" stroke-dasharray="8 6"/>
+<rect data-graph-role="decoration" data-owner="strategy-canvas" x="72" y="123" width="1059" height="891" rx="4" fill="none" stroke="#8c7d68" stroke-width="0.8" stroke-dasharray="7 7" opacity="0.28"/>
+<text x="94" y="153" class="boundary-label">PERSONAL GROWTH · RESEARCH · CREATIVE WORK · FOUNDER DECISIONS</text>
+</g>
+<path data-graph-role="decoration" data-owner="situation-judgment" d="M 598,275 L 601,315" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+<path id="situation-judgment" data-graph-role="edge" data-edge-id="situation-judgment" data-source="situation" data-target="judgment" data-edge-kind="flow" data-flow="control" data-bends="0" data-route-stretch="1" data-bridges="" d="M 600,275 L 600,315" fill="none" stroke="#365f56" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+<path data-graph-role="decoration" data-owner="judgment-entry" d="M 598,430 L 601,470" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+<path id="judgment-entry" data-graph-role="edge" data-edge-id="judgment-entry" data-source="judgment" data-target="entry" data-edge-kind="flow" data-flow="control" data-bends="0" data-route-stretch="1" data-bridges="" d="M 600,430 L 600,470" fill="none" stroke="#365f56" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+<path data-graph-role="decoration" data-owner="entry-deployment" d="M 598,570 L 601,610" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+<path id="entry-deployment" data-graph-role="edge" data-edge-id="entry-deployment" data-source="entry" data-target="deployment" data-edge-kind="flow" data-flow="control" data-bends="0" data-route-stretch="1" data-bridges="" d="M 600,570 L 600,610" fill="none" stroke="#365f56" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+<path data-graph-role="decoration" data-owner="deployment-results" d="M 598,710 L 601,750" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+<path id="deployment-results" data-graph-role="edge" data-edge-id="deployment-results" data-source="deployment" data-target="results" data-edge-kind="flow" data-flow="control" data-bends="0" data-route-stretch="1" data-bridges="" d="M 600,710 L 600,750" fill="none" stroke="#365f56" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+<path data-graph-role="decoration" data-owner="results-revision" d="M 598,850 L 601,890" fill="none" stroke="#365f56" stroke-width="1.1" opacity="0.20"/>
+<path id="results-revision" data-graph-role="edge" data-edge-id="results-revision" data-source="results" data-target="revision" data-edge-kind="flow" data-flow="control" data-bends="0" data-route-stretch="1" data-bridges="" d="M 600,850 L 600,890" fill="none" stroke="#365f56" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-primary)"/>
+<path id="revision-situation" data-graph-role="edge" data-edge-id="revision-situation" data-source="revision" data-target="situation" data-edge-kind="flow" data-flow="feedback" data-bends="2" data-route-stretch="1.08" data-bridges="" d="M 130,935 L 100,935 L 100,225 L 130,225" fill="none" stroke="#a44a3f" stroke-width="1.8" stroke-dasharray="7 5" stroke-linecap="round" marker-end="url(#arrow-review)"/>
+<g id="node-situation" data-graph-role="node" data-node-id="situation" data-semantic-role="rect" data-parent="strategy-canvas" data-graph-bounds="130,175,1070,275">
+<rect x="130" y="175" width="940" height="100" rx="4" fill="#fffdf7" stroke="#8c7d68" stroke-width="1.5"/>
+<rect data-graph-role="decoration" data-owner="node-situation" x="132" y="173" width="939" height="101" rx="4" fill="none" stroke="#8c7d68" stroke-width="0.8" opacity="0.22"/>
+<line x1="443" y1="190" x2="443" y2="260" stroke="#c9bda9" stroke-width="1"/>
+<line x1="756" y1="190" x2="756" y2="260" stroke="#c9bda9" stroke-width="1"/>
+<text x="150" y="199" class="type">01 · EXPLAIN THE SITUATION</text>
+<text x="286" y="230" class="card-title" text-anchor="middle">Scope + stage</text>
+<text x="286" y="255" class="card-copy" text-anchor="middle">objective · authority · time horizon</text>
+<text x="600" y="230" class="card-title" text-anchor="middle">Enabling relationships</text>
+<text x="600" y="255" class="card-copy" text-anchor="middle">what sustains the present situation</text>
+<text x="913" y="230" class="card-title" text-anchor="middle">Evidence + change</text>
+<text x="913" y="255" class="card-copy" text-anchor="middle">what strengthens or depletes it</text>
+</g>
+<g id="node-judgment" data-graph-role="node" data-node-id="judgment" data-semantic-role="rect" data-parent="strategy-canvas" data-graph-bounds="210,315,990,430">
+<rect x="210" y="315" width="780" height="115" rx="4" fill="#24312f" stroke="#365f56" stroke-width="1.5"/>
+<rect data-graph-role="decoration" data-owner="node-judgment" x="212" y="313" width="779" height="116" rx="4" fill="none" stroke="#365f56" stroke-width="0.8" opacity="0.22"/>
+<rect x="220" y="322" width="760" height="101" rx="3" fill="none" stroke="#d8e2dc" stroke-width="0.8" stroke-dasharray="5 5" opacity="0.34"/>
+<text x="232" y="340" class="type-light">02 · JUDGE WHAT MATTERS</text>
+<text x="600" y="371" class="focus-title" text-anchor="middle">DIAGNOSIS → STAGE TASK</text>
+<text x="600" y="393" class="focus-copy" text-anchor="middle">Explain the mechanism; compare rival accounts and coupled constraints</text>
+<text x="600" y="413" class="focus-copy" text-anchor="middle">Choose what to change or protect, before deciding where to intervene</text>
+</g>
+<g id="node-entry" data-graph-role="node" data-node-id="entry" data-semantic-role="rect" data-parent="strategy-canvas" data-graph-bounds="130,470,1070,570">
+<rect x="130" y="470" width="940" height="100" rx="4" fill="#fffdf7" stroke="#365f56" stroke-width="1.5"/>
+<rect data-graph-role="decoration" data-owner="node-entry" x="132" y="468" width="939" height="101" rx="4" fill="none" stroke="#365f56" stroke-width="0.8" opacity="0.22"/>
+<line x1="443" y1="485" x2="443" y2="555" stroke="#c9bda9" stroke-width="1"/>
+<line x1="756" y1="485" x2="756" y2="555" stroke="#c9bda9" stroke-width="1"/>
+<text x="150" y="494" class="type">03 · CHOOSE AN ENTRY</text>
+<text x="286" y="525" class="card-title" text-anchor="middle">FEASIBILITY NOW</text>
+<text x="286" y="550" class="card-copy" text-anchor="middle">evidence · access · prerequisites</text>
+<text x="600" y="525" class="card-title" text-anchor="middle">WIDER SIGNIFICANCE</text>
+<text x="600" y="550" class="card-copy" text-anchor="middle">advance the stage task</text>
+<text x="913" y="525" class="card-title" text-anchor="middle">WHAT FOLLOWS</text>
+<text x="913" y="550" class="card-copy" text-anchor="middle">success · failure · others’ responses</text>
+</g>
+<g id="node-deployment" data-graph-role="node" data-node-id="deployment" data-semantic-role="rect" data-parent="strategy-canvas" data-graph-bounds="130,610,1070,710">
+<rect x="130" y="610" width="940" height="100" rx="4" fill="#fffdf7" stroke="#365f56" stroke-width="1.5"/>
+<rect data-graph-role="decoration" data-owner="node-deployment" x="132" y="608" width="939" height="101" rx="4" fill="none" stroke="#365f56" stroke-width="0.8" opacity="0.22"/>
+<line x1="443" y1="625" x2="443" y2="695" stroke="#c9bda9" stroke-width="1"/>
+<line x1="756" y1="625" x2="756" y2="695" stroke="#c9bda9" stroke-width="1"/>
+<text x="150" y="634" class="type">04 · DEPLOY RESOURCES</text>
+<text x="286" y="665" class="card-title" text-anchor="middle">MAIN EFFORT</text>
+<text x="286" y="690" class="card-copy" text-anchor="middle">time · capability · tools · cooperation</text>
+<text x="600" y="665" class="card-title" text-anchor="middle">SUPPORT + RESERVE</text>
+<text x="600" y="690" class="card-copy" text-anchor="middle">maintenance · income · recovery</text>
+<text x="913" y="665" class="card-title" text-anchor="middle">TRADE-OFFS + FLOOR</text>
+<text x="913" y="690" class="card-copy" text-anchor="middle">defer · reduce · protect obligations</text>
+</g>
+<g id="node-results" data-graph-role="node" data-node-id="results" data-semantic-role="rect" data-parent="strategy-canvas" data-graph-bounds="130,750,1070,850">
+<rect x="130" y="750" width="940" height="100" rx="4" fill="#eef1e9" stroke="#365f56" stroke-width="1.5"/>
+<rect data-graph-role="decoration" data-owner="node-results" x="132" y="748" width="939" height="101" rx="4" fill="none" stroke="#365f56" stroke-width="0.8" opacity="0.22"/>
+<line x1="443" y1="765" x2="443" y2="835" stroke="#c9bda9" stroke-width="1"/>
+<line x1="756" y1="765" x2="756" y2="835" stroke="#c9bda9" stroke-width="1"/>
+<text x="150" y="774" class="type">05 · CONVERT RESULTS</text>
+<text x="286" y="805" class="card-title" text-anchor="middle">INSPECTABLE RESULT</text>
+<text x="286" y="830" class="card-copy" text-anchor="middle">checked knowledge · useful work</text>
+<text x="600" y="805" class="card-title" text-anchor="middle">GROWTH + RETURNS</text>
+<text x="600" y="830" class="card-copy" text-anchor="middle">compounding · thresholds · one-time value</text>
+<text x="913" y="805" class="card-title" text-anchor="middle">NEXT CONDITIONS</text>
+<text x="913" y="830" class="card-copy" text-anchor="middle">retained ability · costs · dependencies</text>
+</g>
+<g id="node-revision" data-graph-role="node" data-node-id="revision" data-semantic-role="rect" data-parent="strategy-canvas" data-graph-bounds="130,890,1070,980">
+<rect x="130" y="890" width="940" height="90" rx="4" fill="#fffdf7" stroke="#a44a3f" stroke-width="1.5"/>
+<rect data-graph-role="decoration" data-owner="node-revision" x="132" y="888" width="939" height="91" rx="4" fill="none" stroke="#a44a3f" stroke-width="0.8" opacity="0.22"/>
+<text x="150" y="915" class="type">06 · UPDATE THE JUDGMENT</text>
+<text x="1050" y="915" class="micro" text-anchor="end">CONTINUE · ADAPT · WAIT · STOP</text>
+<rect x="150" y="936" width="180" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+<text x="240.0" y="954" class="gate" text-anchor="middle">WRONG ACCOUNT</text>
+<rect x="350" y="936" width="220" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+<text x="460.0" y="954" class="gate" text-anchor="middle">CHANGED CONDITIONS</text>
+<rect x="590" y="936" width="190" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+<text x="685.0" y="954" class="gate" text-anchor="middle">IMPLEMENTATION</text>
+<rect x="800" y="936" width="250" height="26" rx="13" fill="#f3efe6" stroke="#8c7d68" stroke-width="0.8"/>
+<text x="925.0" y="954" class="gate" text-anchor="middle">UNCLEAR INFLUENCES</text>
+</g>
+<g id="reframe-label" data-graph-role="label" data-owner="revision-situation" data-graph-bounds="79,487,96,680">
+<text x="88" y="585" text-anchor="middle" class="feedback-label" transform="rotate(-90 88 585)">RESULTS CHANGE CONDITIONS</text>
+</g>
+<g id="legend" data-graph-role="legend">
+<line x1="70" y1="1051" x2="102" y2="1051" stroke="#365f56" stroke-width="2" marker-end="url(#arrow-primary)"/>
+<text x="116" y="1055" class="legend">judgment into action</text>
+<line x1="268" y1="1051" x2="300" y2="1051" stroke="#a44a3f" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#arrow-review)"/>
+<text x="314" y="1055" class="legend">update with results and changed conditions</text>
+</g>
+<g id="footer" data-graph-role="reserved" data-reserved-kind="footer" data-graph-bounds="811,1038,1130,1080">
+<text x="1130" y="1055" class="footnote" text-anchor="end">ONE FRAMEWORK · SIX CONNECTED JUDGMENTS</text>
+<text x="1130" y="1075" class="footnote" text-anchor="end">PERSONAL · RESEARCH · CREATIVE · FOUNDER</text>
+</g></svg>

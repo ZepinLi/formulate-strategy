@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "cases_file": "cases.json",
+  "notes": [
+    "Responders received only each case ID and prompt; criteria were withheld until assessment.",
+    "File paths are relative to the isolated skill root for the selected version.",
+    "These are agent-reported references, not instrumented per-case access traces."
+  ],
+  "baseline": {
+    "source_commit": "0beb5d7c6b55592ebfb3310d90752a55ea7de78c",
+    "responses_file": "responses/2026-11-16-baseline.md",
+    "completed_count": 17,
+    "cases": [
+      {
+        "id": "exploration",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "ordinary-opportunity",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md"
+        ]
+      },
+      {
+        "id": "contrarian",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md"
+        ]
+      },
+      {
+        "id": "early-work",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "research-threshold",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "increase-commitment",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md"
+        ]
+      },
+      {
+        "id": "plateau",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "successful-life",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "brief-critique",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "small-cohort",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md"
+        ]
+      },
+      {
+        "id": "dependent-users",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md"
+        ]
+      },
+      {
+        "id": "local-win-global-loss",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "indirect-entry",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "success-changes-conditions",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md"
+        ]
+      },
+      {
+        "id": "deployment-and-support",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      },
+      {
+        "id": "coupled-constraints",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md"
+        ]
+      },
+      {
+        "id": "uncertain-cooperative-research",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ]
+      }
+    ]
+  },
+  "candidate": {
+    "source": "Runtime skill included in this revision",
+    "responses_file": "responses/2026-11-16-candidate.md",
+    "completed_count": 17,
+    "cases": [
+      {
+        "id": "exploration",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Bounded exploration",
+            "Finding questions and preserving options",
+            "Evidence and commitment"
+          ]
+        }
+      },
+      {
+        "id": "ordinary-opportunity",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Non-consensus claims and changing conditions",
+            "Compounding and thresholds"
+          ],
+          "references/dialectical-strategy.md": [
+            "Concentrate with support and affordable losses",
+            "Turn results into subsequent conditions"
+          ]
+        }
+      },
+      {
+        "id": "contrarian",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Non-consensus claims and changing conditions",
+            "Evidence and commitment"
+          ],
+          "references/founder-growth.md": [
+            "Route by founder stage",
+            "Founder–problem signal",
+            "Survival before irreversible commitment"
+          ]
+        }
+      },
+      {
+        "id": "early-work",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Evaluating early work",
+            "Evidence and commitment"
+          ]
+        }
+      },
+      {
+        "id": "research-threshold",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Finding questions and preserving options",
+            "Compounding and thresholds"
+          ],
+          "references/dialectical-strategy.md": [
+            "Distinguish diagnosis, stage task, and entry",
+            "Turn results into subsequent conditions"
+          ]
+        }
+      },
+      {
+        "id": "increase-commitment",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/founder-growth.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Evidence and commitment"
+          ],
+          "references/founder-growth.md": [
+            "Growth quality",
+            "Survival before irreversible commitment"
+          ],
+          "references/dialectical-strategy.md": [
+            "Concentrate with support and affordable losses",
+            "Turn results into subsequent conditions"
+          ]
+        }
+      },
+      {
+        "id": "plateau",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Success costs and adjustment",
+            "Compounding and thresholds"
+          ],
+          "references/dialectical-strategy.md": [
+            "Explain relationships and their changing conditions",
+            "Turn results into subsequent conditions"
+          ]
+        }
+      },
+      {
+        "id": "successful-life",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Success costs and adjustment"
+          ],
+          "references/dialectical-strategy.md": [
+            "Concentrate with support and affordable losses"
+          ]
+        }
+      },
+      {
+        "id": "brief-critique",
+        "files": [
+          "SKILL.md",
+          "references/decision-calibration.md"
+        ],
+        "reference_sections": {
+          "references/decision-calibration.md": [
+            "Bounded exploration",
+            "Evidence and commitment"
+          ]
+        }
+      },
+      {
+        "id": "small-cohort",
+        "files": [
+          "SKILL.md",
+          "references/founder-growth.md",
+          "references/decision-calibration.md"
+        ],
+        "reference_sections": {
+          "references/founder-growth.md": [
+            "Growth quality",
+            "Do the unscalable work that produces truth",
+            "Persist, pivot, and stop"
+          ],
+          "references/decision-calibration.md": [
+            "Evidence and commitment"
+          ]
+        }
+      },
+      {
+        "id": "dependent-users",
+        "files": [
+          "SKILL.md",
+          "references/founder-growth.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/founder-growth.md": [
+            "Experiment scope and user dependence",
+            "Survival before irreversible commitment"
+          ],
+          "references/dialectical-strategy.md": [
+            "Concentrate with support and affordable losses",
+            "Connect local action to the wider process"
+          ]
+        }
+      },
+      {
+        "id": "local-win-global-loss",
+        "files": [
+          "SKILL.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/dialectical-strategy.md": [
+            "Explain relationships and their changing conditions",
+            "Distinguish diagnosis, stage task, and entry",
+            "Worked research example",
+            "Turn results into subsequent conditions"
+          ]
+        }
+      },
+      {
+        "id": "indirect-entry",
+        "files": [
+          "SKILL.md",
+          "references/dialectical-strategy.md",
+          "references/decision-calibration.md"
+        ],
+        "reference_sections": {
+          "references/dialectical-strategy.md": [
+            "Distinguish diagnosis, stage task, and entry",
+            "Connect local action to the wider process",
+            "Concentrate with support and affordable losses"
+          ],
+          "references/decision-calibration.md": [
+            "Finding questions and preserving options",
+            "Evidence and commitment"
+          ]
+        }
+      },
+      {
+        "id": "success-changes-conditions",
+        "files": [
+          "SKILL.md",
+          "references/dialectical-strategy.md",
+          "references/founder-growth.md"
+        ],
+        "reference_sections": {
+          "references/dialectical-strategy.md": [
+            "Explain relationships and their changing conditions",
+            "Turn results into subsequent conditions",
+            "Worked founder example"
+          ],
+          "references/founder-growth.md": [
+            "Founder growth and involvement",
+            "Do the unscalable work that produces truth"
+          ]
+        }
+      },
+      {
+        "id": "deployment-and-support",
+        "files": [
+          "SKILL.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/dialectical-strategy.md": [
+            "Concentrate with support and affordable losses",
+            "Connect local action to the wider process",
+            "Turn results into subsequent conditions"
+          ]
+        }
+      },
+      {
+        "id": "coupled-constraints",
+        "files": [
+          "SKILL.md",
+          "references/dialectical-strategy.md"
+        ],
+        "reference_sections": {
+          "references/dialectical-strategy.md": [
+            "Explain relationships and their changing conditions",
+            "Distinguish diagnosis, stage task, and entry",
+            "Connect local action to the wider process",
+            "Concentrate with support and affordable losses"
+          ]
+        }
+      },
+      {
+        "id": "uncertain-cooperative-research",
+        "files": [
+          "SKILL.md",
+          "references/dialectical-strategy.md",
+          "references/decision-calibration.md"
+        ],
+        "reference_sections": {
+          "references/dialectical-strategy.md": [
+            "Explain relationships and their changing conditions",
+            "Connect local action to the wider process",
+            "Concentrate with support and affordable losses",
+            "Turn results into subsequent conditions"
+          ],
+          "references/decision-calibration.md": [
+            "Finding questions and preserving options",
+            "Evidence and commitment"
+          ]
+        }
+      }
+    ]
+  }
+}

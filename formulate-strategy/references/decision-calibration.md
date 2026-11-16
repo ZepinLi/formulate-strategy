@@ -1,6 +1,6 @@
 # Decision Calibration
 
-Read only the sections relevant to a consequential uncertainty. These are aids to judgment, not a separate report or mandatory questionnaire. The source mapping and limitations live in [research-provenance.md](research-provenance.md).
+Read only the sections relevant to a consequential uncertainty. These calibrate evidence and commitment within the main Strategic Judgment and Guiding Approach, not a separate report or mandatory questionnaire. For the distinction between diagnosis, stage task, and entry, or resource coordination as conditions change, use [dialectical-strategy.md](dialectical-strategy.md). Source mappings and limitations live in [research-provenance.md](research-provenance.md).
 
 ## Contents
 
@@ -58,7 +58,7 @@ Assess the rate and cause of improvement, what difficult work was actually attem
 
 For a small experiment, prefer a medium that enables useful feedback without large upfront commitment. Failure can be informative when the question is specific enough to rule something out. Do not call every failure learning after the fact or use a long-term vision to excuse repeated absence of progress.
 
-The standard should rise with the decision: permission to try a sketch does not establish readiness to quit a job, recruit a team, or expose dependent users to it. Do not use mature-project completeness gates to prevent a bounded exploration from starting.
+The standard should rise with the decision: permission to try a sketch does not establish readiness to quit a job, recruit a team, or expose dependent users to it. Do not use mature-project completeness requirements to prevent a bounded exploration from starting.
 
 ## Compounding and thresholds
 

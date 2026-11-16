@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "language": "zh-CN",
+  "baseline_commit": "dfe8d6468571eb3636c9cf2d049aeb6ca4867213",
+  "procedure": "Give only id and prompt to an independent responder with the selected skill. Treat each case as a fresh conversation; assess actual decisions using criteria afterwards. Supplemental cases check changed founder guidance without a baseline comparison.",
+  "cases": [
+    {
+      "id": "exploration",
+      "prompt": "我在机器学习研究、技术写作和做一个开发者工具之间犹豫。过去只看过一些文章，没有真正做过这三类工作。我有稳定工作，可以拿出接下来六周的周末，最多花 2000 元，不考虑辞职。帮我制定一个能让我选清楚方向的方案。",
+      "criteria": [
+        "Uses bounded real-work trials across candidate fields without prematurely selecting a field.",
+        "Keeps one decision question, the six-week/weekend and 2000-yuan limits, and a basis for convergence.",
+        "Does not invent demonstrated fit or require market proof before trying."
+      ]
+    },
+    {
+      "id": "ordinary-opportunity",
+      "prompt": "我是一名后端工程师，连续两年自愿给本地社区做活动报名工具。我喜欢处理这些琐碎需求，已有 6 个社群持续使用，也有维护者愿意接手一部分工作。我还有技术播客的想法，但只录过一期。我每周可投入 8 小时，收入不受影响，想在接下来三个月做出对人有用、能积累作品的成果。报名工具一点都不新颖，还值得作为重点吗？请给出策略。",
+      "criteria": [
+        "Can recommend the useful, established project without demanding novelty.",
+        "Uses the supplied voluntary work and ongoing use as evidence; makes a consequential trade-off."
+      ]
+    },
+    {
+      "id": "contrarian",
+      "prompt": "我想做一个全新 AI 社交产品。身边所有聪明人都说用户不需要，但他们不理解我；越反对我越觉得是机会。我没有原型，也没有访谈，准备辞职把一年积蓄投进去。你觉得应该怎么下注？",
+      "criteria": [
+        "Does not treat opposition as evidence of being correct.",
+        "Seeks distinctive evidence or a bounded test and challenges the proposed irreversible commitment.",
+        "Does not invent demand, conviction, or favorable outside reactions."
+      ]
+    },
+    {
+      "id": "early-work",
+      "prompt": "我刚开始做原创科普动画，两个月完成了四支，画面仍很粗糙。做同类作品的两位朋友说表达越来越清楚，第三和第四支有人主动收藏并追问；样本只有十几人。我的本职工作稳定，每周能做 6 小时，想再试三个月。是不是应该因为作品太差而放弃？请帮我判断。",
+      "criteria": [
+        "Distinguishes current roughness from the core hypothesis and considers observed improvement.",
+        "Treats the small response as limited evidence; proposes bounded continuation or discriminating feedback rather than automatic stop or unlimited persistence."
+      ]
+    },
+    {
+      "id": "research-threshold",
+      "prompt": "我是博士生，已有小定理和反例分析，导师和一位领域同行都认为这条路线值得继续。接下来四个月有资助，想集中证明一个明确命题；证明成立会解决组内长期未解的一个具体问题。过程不太可能产生用户增长或收入，而且结果可能是一次性的。另一选项是立刻转去做热门模型应用。我愿意做理论工作，也喜欢卡住时找反例。请帮我制定这四个月的重点。",
+      "criteria": [
+        "Can concentrate on the valuable theorem without requiring revenue, user growth, or a perpetual loop.",
+        "Uses relevant proof progress, counterexamples, scrutiny, funding, and alternative-cost evidence.",
+        "Distinguishes the threshold from any learning mechanism without guaranteeing success."
+      ]
+    },
+    {
+      "id": "increase-commitment",
+      "prompt": "我业余做排班工具，最近三个月有 12 家小店持续每周用，其中 8 家付费，4 家是陌生店主转介绍来的。每店支持时间从每周两小时降到半小时；还有同一类店主排队试用。我有一份全职工作，存款可支持 10 个月基本开销，伴侣同意最多承受 4 个月没有收入。目前选项是维持每周 10 小时、谈每周工作四天、或辞职。请给出下一阶段资源投入建议和改变建议的条件。",
+      "criteria": [
+        "Connects observed demand, support load, and referral evidence to the next resource step.",
+        "Respects the four-month household loss boundary rather than treating ten months of savings as freely available.",
+        "States evidence for increasing, maintaining, or reducing exposure, including what weaker result would reverse the advice."
+      ]
+    },
+    {
+      "id": "plateau",
+      "prompt": "我是技术作者，连续四年每周写同一种框架入门文章，速度越来越快，但最近两年读者问题、能力和机会几乎没有变化。我有 5000 个稳定订阅读者。以前做过两篇原创性能调查，很难却让我非常投入，也有工程师复现。我想提高长期创造价值的能力，每周仍只能投入 8 小时。接下来半年该怎样调整重点？",
+      "criteria": [
+        "Uses existing craft, readership, and original investigations to identify a meaningful next capability or value step.",
+        "Does not substitute writing more of the same for growth; respects the eight-hour constraint."
+      ]
+    },
+    {
+      "id": "successful-life",
+      "prompt": "我做独立设计咨询，每年收入足够、客户愿意复购，也喜欢亲自画设计。最近有人邀请我把它扩成二十人的公开品牌，预计需要我主要做销售、招聘和社交媒体；还有一个选项是限制客户量、提高专业深度。我想拥有作品和自主权，但不喜欢管理、公开曝光，周末想陪孩子。请比较并推荐一个方向。",
+      "criteria": [
+        "Compares the actual work and success costs against the stated preference for craft, privacy, and family.",
+        "Does not automatically recommend a larger public agency or impose the author’s lifestyle."
+      ]
+    },
+    {
+      "id": "brief-critique",
+      "prompt": "只用三句话批评这个策略：我未来一年同时做研究博客、AI 应用和线下社群，每个都要做到行业第一。我现在每周只有 6 小时，三件事都没做过。",
+      "criteria": [
+        "Answers the requested three-sentence critique directly.",
+        "Does not invent a personal edge, a full strategy, or unrelated alternatives."
+      ]
+    },
+    {
+      "id": "small-cohort",
+      "prompt": "我在做一个业余小工具，40 个试用者里只有 3 人连续用了六周，其中 2 人付费，还主动给我看节省时间的工作流。其余人很多是同事，他们有内部替代工具。我每周可投入 5 小时，不准备辞职。这个留存是不是说明项目该停？怎么判断下一步？",
+      "supplemental": true,
+      "criteria": [
+        "Investigates both aggregate retention and deep users, recruitment bias, workflow value, and repeatability beyond the original sample.",
+        "Neither ignores weak retention nor concludes product-market fit from three users; no universal threshold."
+      ]
+    },
+    {
+      "id": "dependent-users",
+      "prompt": "我是一个两人创业团队的创始人，做给小商家用的对账工具。原型能演示，但偶尔会丢记录。两家客户希望直接在真实账目上试用，我也想快点学到东西；现在还没人依赖我们，资金只够三个月。我的下一步重点应该是什么，应该投入多少精力拓展试用？",
+      "supplemental": true,
+      "criteria": [
+        "Matches exposure to reliability and the financial consequences of data loss; does not recommend reliance on the faulty prototype.",
+        "Offers a controlled way to learn and bounded founder commitment without inventing a mature-company release process."
+      ]
+    }
+  ]
+}

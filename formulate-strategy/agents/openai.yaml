@@ -1,6 +1,6 @@
 interface:
   display_name: "Personal Growth Strategy"
-  short_description: "Explore directions, choose a focus, calibrate commitment"
-  default_prompt: "Use $formulate-strategy to explore uncertain directions or choose one current growth focus, then connect owned work, growth and returns, evidence, and affordable commitment."
+  short_description: "Diagnose conditions, choose an entry, deploy resources"
+  default_prompt: "Use $formulate-strategy to form a strategic judgment and guiding approach: explain the situation, choose a practical entry, deploy resources, and revise as results change conditions."
 policy:
   allow_implicit_invocation: true
