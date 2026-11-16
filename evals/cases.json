@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "language": "zh-CN",
-  "baseline_commit": "dfe8d6468571eb3636c9cf2d049aeb6ca4867213",
-  "procedure": "Give only id and prompt to an independent responder with the selected skill. Treat each case as a fresh conversation; assess actual decisions using criteria afterwards. Supplemental cases check changed founder guidance without a baseline comparison.",
+  "baseline_commit": "0beb5d7c6b55592ebfb3310d90752a55ea7de78c",
+  "procedure": "Give only id and prompt to independent responders with the selected skill; treat cases as separate user conversations. Keep criteria hidden during generation. Assess actual decisions afterwards.",
   "cases": [
     {
       "id": "exploration",
@@ -11,7 +11,8 @@
         "Uses bounded real-work trials across candidate fields without prematurely selecting a field.",
         "Keeps one decision question, the six-week/weekend and 2000-yuan limits, and a basis for convergence.",
         "Does not invent demonstrated fit or require market proof before trying."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "ordinary-opportunity",
@@ -19,7 +20,8 @@
       "criteria": [
         "Can recommend the useful, established project without demanding novelty.",
         "Uses the supplied voluntary work and ongoing use as evidence; makes a consequential trade-off."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "contrarian",
@@ -28,7 +30,8 @@
         "Does not treat opposition as evidence of being correct.",
         "Seeks distinctive evidence or a bounded test and challenges the proposed irreversible commitment.",
         "Does not invent demand, conviction, or favorable outside reactions."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "early-work",
@@ -36,7 +39,8 @@
       "criteria": [
         "Distinguishes current roughness from the core hypothesis and considers observed improvement.",
         "Treats the small response as limited evidence; proposes bounded continuation or discriminating feedback rather than automatic stop or unlimited persistence."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "research-threshold",
@@ -45,7 +49,8 @@
         "Can concentrate on the valuable theorem without requiring revenue, user growth, or a perpetual loop.",
         "Uses relevant proof progress, counterexamples, scrutiny, funding, and alternative-cost evidence.",
         "Distinguishes the threshold from any learning mechanism without guaranteeing success."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "increase-commitment",
@@ -54,7 +59,8 @@
         "Connects observed demand, support load, and referral evidence to the next resource step.",
         "Respects the four-month household loss boundary rather than treating ten months of savings as freely available.",
         "States evidence for increasing, maintaining, or reducing exposure, including what weaker result would reverse the advice."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "plateau",
@@ -62,7 +68,8 @@
       "criteria": [
         "Uses existing craft, readership, and original investigations to identify a meaningful next capability or value step.",
         "Does not substitute writing more of the same for growth; respects the eight-hour constraint."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "successful-life",
@@ -70,7 +77,8 @@
       "criteria": [
         "Compares the actual work and success costs against the stated preference for craft, privacy, and family.",
         "Does not automatically recommend a larger public agency or impose the author’s lifestyle."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "brief-critique",
@@ -78,25 +86,82 @@
       "criteria": [
         "Answers the requested three-sentence critique directly.",
         "Does not invent a personal edge, a full strategy, or unrelated alternatives."
-      ]
+      ],
+      "suite": "regression"
     },
     {
       "id": "small-cohort",
       "prompt": "我在做一个业余小工具，40 个试用者里只有 3 人连续用了六周，其中 2 人付费，还主动给我看节省时间的工作流。其余人很多是同事，他们有内部替代工具。我每周可投入 5 小时，不准备辞职。这个留存是不是说明项目该停？怎么判断下一步？",
-      "supplemental": true,
       "criteria": [
         "Investigates both aggregate retention and deep users, recruitment bias, workflow value, and repeatability beyond the original sample.",
         "Neither ignores weak retention nor concludes product-market fit from three users; no universal threshold."
-      ]
+      ],
+      "suite": "regression",
+      "supplemental": true
     },
     {
       "id": "dependent-users",
       "prompt": "我是一个两人创业团队的创始人，做给小商家用的对账工具。原型能演示，但偶尔会丢记录。两家客户希望直接在真实账目上试用，我也想快点学到东西；现在还没人依赖我们，资金只够三个月。我的下一步重点应该是什么，应该投入多少精力拓展试用？",
-      "supplemental": true,
       "criteria": [
         "Matches exposure to reliability and the financial consequences of data loss; does not recommend reliance on the faulty prototype.",
         "Offers a controlled way to learn and bounded founder commitment without inventing a mature-company release process."
-      ]
+      ],
+      "suite": "regression",
+      "supplemental": true
+    },
+    {
+      "id": "local-win-global-loss",
+      "prompt": "我是一名编译器方向的研究生，目标是提出能推广到新程序的优化方法。最近用十几个特例把固定基准平均提速了20%，但新程序上出现明显回退，规则间交互和维护成本也上升。两个月后要提交阶段成果，每周可投入20小时。是继续加特例把榜单做高，还是先改研究路线？请给出战略分析和下一步方针。",
+      "criteria": [
+        "Separates benchmark gains from the stated generalization goal and counts regressions and maintenance costs.",
+        "Explains how the improvement method can itself create the present limit; selects a testable entry and useful stage result rather than assuming all old rules must be discarded."
+      ],
+      "suite": "relations-and-action"
+    },
+    {
+      "id": "indirect-entry",
+      "prompt": "我做低算力的机器学习研究，当前最有力的解释需要一项大型实验，但我无力改变实验室的算力配额。两个月内另一个组愿意给一次有限复现实验机会，前提是我先提供小模型上的可信证据和清楚的假说。我只有六周、每周15小时，不能离职或自费买算力。怎么判断关键问题、阶段任务和现在的突破口？",
+      "criteria": [
+        "Distinguishes the larger resource constraint from the task of earning access and the immediate small-model evidence entry.",
+        "Checks the transfer assumption and cooperation conditions; does not pretend the compute constraint has disappeared or label the easiest task the principal contradiction."
+      ],
+      "suite": "relations-and-action"
+    },
+    {
+      "id": "success-changes-conditions",
+      "prompt": "我业余做给小店用的工具，最初亲自为每位用户定制和支持很有效，20家小店都持续使用。我却开始被支持消息打断，每周10小时几乎全被占用，修复变慢；5家老用户说他们只用同一个核心流程。现在我该继续坚持原来成功的近距离服务，还是全部改成自动化？本职收入与基本休息不能牺牲。",
+      "criteria": [
+        "Explains the shift from useful close service to a capacity constraint created partly by success.",
+        "Preserves valuable user contact and tested core outcomes while changing the dependence on bespoke work; avoids both blind persistence and total automation without validation."
+      ],
+      "suite": "relations-and-action"
+    },
+    {
+      "id": "deployment-and-support",
+      "prompt": "我想在六周内交付一个可复现的研究结果，现在只有每周8小时。现有开源工具每周必须用2小时修复会影响用户的故障，带来的收入刚好守住生活底线；合作者还能每周投入2小时，但需要我准备好测量数据。我焦虑，想把维护和沟通都停掉，全力冲论文。应该怎样集中力量？",
+      "criteria": [
+        "Counts the actual available capacity and protects maintenance, income, and necessary cooperation.",
+        "Matches a narrower meaningful result or preparatory phase to the resource combination; does not prescribe all-in work or invent a universal allocation ratio."
+      ],
+      "suite": "relations-and-action"
+    },
+    {
+      "id": "coupled-constraints",
+      "prompt": "我正在验证一个科研数据工具。没有真实样本就做不出有说服力的演示，但潜在合作者看不到可信演示又不愿提供样本；另有数据授权限制。我目前只有关于这三个障碍的访谈记录，没有实际试用。请找出主要矛盾并制定第一阶段策略。我能投入四周，每周6小时，不能绕过授权。",
+      "criteria": [
+        "Does not assert a uniquely dominant cause without evidence; explains coupled access, evidence, and permission conditions.",
+        "Chooses a bounded discriminating step such as an authorized narrow sample or transparent synthetic demonstration without misrepresenting it as real validation."
+      ],
+      "suite": "relations-and-action"
+    },
+    {
+      "id": "uncertain-cooperative-research",
+      "prompt": "我和另一位博士生想一起检验一个新假说，双方各有不同实验技能，不能预知会不会有正结果。我们都愿意拿出四周，每周6小时，使用已获许可的数据；如果假说不成立，希望至少能得到可复核的反证或明确的失败边界。朋友说必须先有必胜把握，还说战略就是要把对方当竞争者掌握主动权。你怎么判断这次尝试？",
+      "criteria": [
+        "Allows an affordable cooperative investigation without a guaranteed positive finding or invented adversarial frame.",
+        "Defines checkable outcomes, complementary roles, and what success or failure would support; does not claim a single result validates the entire causal account."
+      ],
+      "suite": "relations-and-action"
     }
   ]
 }

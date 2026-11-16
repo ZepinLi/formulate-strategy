@@ -1,128 +1,122 @@
 ---
 name: formulate-strategy
-description: "Choose what work, research, creative project, or startup to pursue; explore uncertain directions, concentrate resources, and build a path for growth and valuable results. Use for personal or career direction (个人成长、职业方向), owned projects, founder development, early users, and startup survival. Excludes mature-company or organizational strategy and daily task management."
+description: "Analyze strategic problems in personal growth, career direction (个人成长、职业方向), research, creative work, and founder development. Explain conditions, identify consequential constraints, choose an entry point, and deploy scarce resources to produce useful results and revise the approach. Covers early users and startup survival; excludes mature-company or organizational strategy and daily task management."
 ---
 
 # Formulate Strategy
 
-Help a person discover worthwhile problems through real work, calibrate their judgment, and concentrate resources on a path that develops capability, ownership, and valuable results.
+Help a person judge which conditions to change or protect in a concrete situation and stage, choose a practical entry point, organize limited resources, and update the approach as results change the conditions for further action.
 
-Keep one current allocation focus per decision scope. In exploration, this is one direction-choice question tested through a few bounded projects; after convergence, it is one **Current Growth Focus**. Neither is a permanent identity. Other priorities are constraints, maintenance, supporting capabilities, deferred options, or explicit exclusions.
+The primary deliverable is a **Strategic Judgment and Guiding Approach** connecting diagnosis, a stage task, an entry point, resource deployment, a meaningful result, and conditions for revision. A **Current Growth Focus** remains the resource choice within this approach, not the whole strategy or a permanent identity. Keep one allocation focus per decision scope; bounded exploration may compare a few projects answering one direction-choice question.
 
 Use English by default. Use another language when the user requests it or clearly establishes that preference. Keep core terms stable when translating.
 
-## Scope and selective references
+## Scope and required references
 
-Use for personal or career direction, research and creative work, owned projects, founder development, startup validation, early users, growth quality, and survival. A startup is one possible path, not the default for ambitious people.
+Use for personal or career direction, research and creative work, owned projects, founder development, early users, growth quality, and survival. A startup is one possible vehicle, not the default for ambitious people. For company-level founder questions, address the founder's focus, learning, agency, reality contact, or survival. Mature-company, platform, ecosystem, general product, and organizational strategy, daily routines, task management, therapy, generic motivation, and automated reviews remain outside scope.
 
-- Read [references/decision-calibration.md](references/decision-calibration.md) when uncertainty about direction, a non-consensus claim, changing conditions, early work, a threshold, or a change in commitment materially affects the decision. Use the relevant sections.
-- Read [references/founder-growth.md](references/founder-growth.md) when startup or founder-specific questions are material.
-- Read [references/research-provenance.md](references/research-provenance.md) only for sources, methodology, audits, or skill updates. Ordinary use does not require reopening the original sources.
+Read the references before forming a judgment. They carry the source passages, the distinctions, and the calibration that the six steps below depend on.
 
-Do not route mature-company, platform, ecosystem, general product, or organizational strategy here. For company-level founder questions, address the founder's focus, learning, agency, reality contact, or survival. Daily habits, schedules, task management, generic motivation, therapy, and automated reviews remain outside scope.
+- For every request in scope, including short answers and critiques, read [references/dialectical-strategy.md](references/dialectical-strategy.md) and [references/decision-calibration.md](references/decision-calibration.md) in full, then apply the sections relevant to the case.
+- For any question involving a startup, a founder, early users, growth, or runway, also read [references/founder-growth.md](references/founder-growth.md).
+- Read [references/research-provenance.md](references/research-provenance.md) when the user asks about sources, methodology, audits, or skill updates.
+- Read each file whole in one read with your file-reading tool. If you can read files only through shell commands, run this skill's `scripts/read.sh` by its absolute path with the file's relative path, for example `<skill directory>/scripts/read.sh references/decision-calibration.md`; some clients allow only that command for this skill's files.
+- If a required file cannot be read, say so in the answer rather than proceeding as if it had been read.
 
-## Interaction and decision stages
+## Interaction and decision stage
 
-Inspect supplied documents before asking what they already answer. Use **guided diagnosis** when missing information could change direction, commitment, or the survival floor. Give the partial judgment supported so far and ask at most three consequential questions per turn. For a requested draft, comparison, recommendation, or critique, use **direct formulation** when enough context exists; state material assumptions.
+Inspect supplied evidence before asking for facts it already contains. Use guided diagnosis when missing information could change the approach, allocation, or survival boundary: present the supported partial judgment and ask at most three consequential questions per turn. For a requested draft, comparison, recommendation, or critique, formulate directly when enough context exists and mark material assumptions. Avoid a broad life inventory.
 
-Distinguish the stage from the response format:
+- **Explore:** When real-work evidence is insufficient, the stage task may be reducing uncertainty. Use one **Provisional Exploration Focus** with a few bounded candidate projects, possibly across fields and normally tried sequentially. Set affordable time and money exposure plus convergence or reconsideration conditions. Do not require proven fit, mature demand, or guaranteed discovery before starting.
+- **Concentrate:** A supported direction receives disproportionate resources through one **Current Growth Focus**. If important claims remain untested, label the approach provisional; use **Provisional Growth Focus** for a plausible but unvalidated direction.
+- **Adjust:** A plateau or setback calls for diagnosis of direction, method, capability, feedback, or resources. Difficulty or novelty alone does not justify switching. A stage task can protect or restore existing conditions rather than expand activity.
 
-- **Explore:** When real-work evidence is insufficient, form one **Provisional Exploration Focus** around a direction-choice question. Allow a few candidate projects across fields, normally tried sequentially, with bounded time and affordable loss. Do not require a proven personal edge, mature demand, or a business model before exploration can begin.
-- **Concentrate:** When evidence supports a direction, choose one **Current Growth Focus** and make a disproportionate resource commitment. If a direction is plausible but important claims remain untested, label it **Provisional Growth Focus** and say what would overturn it.
-- **Adjust:** For a plateau or setback, locate whether direction, method, capability, feedback, or resources are failing. Distinguish changing the route from abandoning the aim. Neither discomfort nor novelty alone justifies switching.
+## Six-step reasoning
 
-## Workflow
+Use this as one connected analysis, not six compulsory sections for every reply.
 
-### 1. Frame what is worth pursuing
+### 1. Explain the situation: what sustains it, and what is changing?
 
-Clarify the valuable result or learning sought, the decision horizon, scarce resources, non-negotiable constraints, and survival floor. Do not assume growth means income, status, visibility, or startup scale. When a path would materially change life, consider success as well as failure: the work, management, exposure, obligations, freedom, and relationships it would bring.
+Bound the process the person actually needs to influence: its valuable objective, present stage, horizon, scarce resources, and survival floor. Do not expand the whole into their entire life or an industry. Distinguish conditions they control, can influence, or must accommodate.
 
-Keep **facts** (observations and credible evidence), **interpretations** (inferred explanations), and **assumptions** (untested claims) distinct. A working hypothesis is not a forecast or established fact.
+Explain the few relationships that sustain the current situation: capability and problem, tools and workflow, resources and commitments, users and product, or the person and collaborators. Examine what maintains, strengthens, or consumes those conditions. Ask whether an effective practice is producing its own limits as it develops, and whether external changes make old evidence less applicable. Treat these as questions, not inevitable patterns.
 
-### 2. Discover directional signal and worthwhile questions
+For direction choices, ground fit in sustained curiosity, voluntary effort, actual difficult work, outputs, learning rate, taste, lived problems, and reachable beneficiaries. Neither identity, popularity, obscurity, nor introspection alone establishes value or fit. Ability and opportunities can develop together. When material, examine the work, exposure, obligations, freedom, and relationships success would bring; growth need not mean income, status, visibility, or scale.
 
-Look for sustained curiosity, voluntary effort, work produced, learning rate, taste, resourcefulness, lived problems, and access to people or tools. Fit includes the actual difficult or tedious work, not just liking an identity or its rewards. Difficulty does not itself disprove fit.
+### 2. Judge what matters: diagnosis, stage task, and entry point
 
-Distinguish a field, a problem, and a proposed solution. Look for anomalies, missing pieces, repeated friction, and gaps revealed by working near a field's frontier. Check what is unknown and why learning about it could matter. A small question need not already have a grand impact story. Popularity and obscurity are neither proof of value nor disproof of it.
+Keep facts, interpretations, and assumptions distinct. Identify a consequential constraint or governing relationship and explain how it affects other parts of the process. Compare plausible explanations when needed; anxiety, difficulty, urgency, or visibility alone does not establish strategic importance. Use relevant outside evidence or base rates without inventing them, scores, probabilities, or causal certainty.
 
-When direction is unclear, distinguish not knowing what matters to the person, what the work is like, and how they might develop at it. Use actual projects to learn; preserve useful future options rather than demanding a lifelong choice.
+Separate three judgments:
 
-### 3. Diagnose the crux
+- **Diagnosis:** What mechanism explains progress or blockage across this decision scope?
+- **Stage task:** Which condition should change or be protected now?
+- **Practical entry point:** Where can the person intervene to advance that task?
 
-Identify the most consequential addressable obstacle: insufficient exploration, fragmented attention, weak agency, poor reality contact, a missing capability, distribution, premature scale, or runway. Separate it from symptoms and motivation slogans. Ability and opportunities can develop together; do not treat today's fit as fixed destiny.
+The governing constraint may not be directly addressable. Do not confuse it with the easiest available action. If constraints are coupled, explain their interaction; do not force a single root cause. Where evidence cannot distinguish explanations, keep competing hypotheses and choose a bounded way to learn.
 
-### 4. Generate real paths
+### 3. Choose an entry: what first result makes the next phase possible?
 
-For an open direction choice, compare two or three genuinely distinct paths, including a credible continuation when meaningful. For a narrow critique or adjustment, use only relevant alternatives; do not invent paths to fill a quota.
+Where a real choice exists, compare two or three credible entries, including continuation, preparation, or waiting when relevant. A local critique need not generate alternatives to fill a quota. For each material option, check:
 
-Compare attraction to the work, evidence of fit, external value or learning, agency, growth and return mechanism, opportunity cost, future options, and affordable downside. State the weakest assumption and a small discriminating reality test. Match the evidence to the work: a theorem, a creative work, and a startup need different tests.
+- **Feasibility now:** What evidence, access, ability, and prerequisites support the attempt?
+- **Wider significance:** How would the result advance the stage task, rather than merely improve a visible local metric?
+- **Subsequent conditions:** What would success, failure, and relevant people's responses make possible or harder next?
 
-### 5. Compare and calibrate judgment
+Consider at least the next phase at a useful level of detail, not a rigid chain of predicted events. Include the strongest relevant objection and what observation would reverse or materially reduce commitment. For an overlooked-opportunity claim, examine actual disagreement, distinctive evidence, and why it changes the case. Neither opposition nor persuasion proves correctness; not all useful work needs novelty.
 
-Use qualitative causal comparisons, the outside view, reversibility, and affordable loss. Do not fabricate scores, probabilities, growth rates, or base rates. Check whether important evidence still applies to the current environment.
+Choose work the user can actively claim, substantially shape, and test: an owned project, investigation, or body of work. This may be collaborative or within employment; agency need not mean equity, working alone, or quitting. Research can begin with a discriminating hypothesis test; early creative work can be rough. Match feedback to the work instead of imposing paying users or guaranteed positive findings. If prerequisites are missing, narrow the result, build conditions, change entry, or defer with explicit reconsideration grounds.
 
-For a non-consensus thesis, identify the actual disagreement, the distinctive observation, why it changes the bet, and the strongest objection. Neither disagreement nor agreement is evidence of correctness by itself. Originality is essential in some work and optional in other useful work. Explain important judgments clearly enough to expose gaps; persuasive expression is not validation.
+### 4. Deploy resources: what makes this approach materially supported?
 
-Before recommending, give the strongest relevant dissent and an observation that would reverse or materially reduce the commitment. Distinguish a rough early version from a failing core hypothesis; judge improvement and learning alongside current quality.
+Turn priority into a resource choice. Name the time, attention, capability, tools, money, and cooperation that can actually be mobilized for the selected result, plus responsibilities and dependencies when relevant. Separate agreed cooperation from assumed availability. Judge sufficiency relative to task demands; neither a universal resource ratio nor simply adding effort establishes readiness.
 
-### 6. Converge on one allocation focus
+For a supported direction, state the **Current Growth Focus** within the approach: for a relevant horizon, concentrate specified scarce resources on one field, problem, project, or startup to create a valuable result, using supported strengths, while setting aside a credible alternative and protecting the survival floor. For exploration, allocate instead to one choice question and its bounded candidate projects, without inventing a demonstrated edge.
 
-For a supported direction, adapt this sentence:
+Distinguish main effort, complementary work, necessary maintenance, and retained capacity. Preserve income, reliability, recovery, health, relationships, and other non-negotiable obligations as appropriate. Concentration can include coordinated parallel tasks serving one stage task; it does not mean cancelling all support. State what is delayed, reduced, or stopped and which losses are affordable. Do not assume temporary sacrifices can later be recovered. Keep this at strategic allocation level, not a schedule or task board.
 
-> For `[horizon]`, devote `[scarce resources]` to `[one field, problem, project, or startup]` to create `[valuable outcome]`, using `[evidence-backed edge]` and advancing through `[growth and return mechanism]`, while setting aside `[credible alternative]` and protecting `[survival floor]`.
+### 5. Convert results: what remains, and what does it enable?
 
-A Current Growth Focus needs a valuable result, resource tilt, relevant evidence, a consequential exclusion, and a credible survival floor. It cannot be merely an identity, aspiration, metric, capability, theme, task, or bundle of coequal directions.
+Define an inspectable result rather than activity volume or publicity. Explain what can be retained and used: checked knowledge, reusable tools, capability, work, trusted cooperation, user understanding, or resource headroom. Account for consumption, maintenance, new dependencies, and damage to other conditions; a local gain may worsen the overall situation.
 
-For exploration, use a different contract:
+Name the relevant **Growth and Return Mechanism**: a compounding loop where an improved asset strengthens later work; a valuable threshold whose crossing unlocks a result; or a supported combination. For a threshold, explain value, progress evidence, costs, and risk. Valuable one-time outcomes need no invented flywheel. For a plateau, identify a next capability, responsibility, or valuable output that builds on prior work rather than more repetition. Failure is useful learning only when it changes understanding or subsequent action.
 
-> For `[bounded horizon and resources]`, resolve `[one direction-choice question]` through `[a few candidate projects]`, observe `[differences that matter]`, and concentrate or revise when `[decision-relevant evidence]` appears, while protecting `[survival floor]`.
+### 6. Update the judgment: what changed, and does the approach still hold?
 
-Exploration may cross fields. Specify how real work will distinguish candidates and when the exploration is reconsidered; do not keep an indefinite portfolio of possibilities or invent advantages not yet demonstrated.
+Specify evidence for increasing, maintaining, or reducing exposure and for persisting, adapting, waiting, or stopping. Examine four possibilities, which can coexist:
 
-### 7. Make owned work the vehicle
+1. The original diagnosis or mechanism was mistaken.
+2. It applied before, but conditions have changed, including through the person's own action or success.
+3. The action did not implement a critical requirement of the approach.
+4. External influences or causes of the outcome remain unclear.
 
-Choose work the user can actively claim, substantially shape, and learn from. Agency may come from authorship, responsibility, product control, a durable audience relationship, code, or equity; it can exist within employment and collaboration. Ownership is not synonymous with working alone or quitting.
-
-In concentration, use one primary project or body of work; in exploration, use the bounded candidate projects. Each should produce observable work and relevant reality contact rather than only credentials or preparation. A curiosity-led project need not be commercialized at inception. Integrate any founder lens into the same allocation decision.
-
-### 8. Build growth, returns, and commitment logic
-
-Name the primary **Growth and Return Mechanism**:
-
-- **Compounding:** Repeated work improves an asset or capability that improves future work. Explain the causal loop rather than just naming code, skill, audience, reputation, relationships, capital, or equity.
-- **Threshold:** Crossing a specific barrier enables a valuable result. Explain the barrier, value beyond it, supporting progress, cost, and risk of not crossing it. A prize or competitive field alone does not make the path worthwhile.
-- **Combination:** Explain how accumulation helps cross a threshold or a breakthrough improves later work. Do not promise exponential growth.
-
-Identify the few required capabilities and how the next phase builds on existing work. For a plateau, look for a meaningful increase in capability, responsibility, or value rather than simply more volume. Failure counts as learning only when it changes understanding or subsequent action.
-
-Connect current evidence to current time, money, attention, or risk; state what would justify increasing, maintaining, or reducing commitment. Preserve consistency of action while allowing beliefs and methods to change. Include a no-list, minimum reality tests, and observable persist, pivot, or stop conditions. Keep these strategic, without routines or task management.
+Ask specifically whether success is creating the next constraint. Preserve effective knowledge, relationships, or methods while changing a limiting form. Do not equate development with improvement, infer the whole explanation from one success, or abandon an aim automatically after one failure. Keep action consistent until there is a reason to update, without turning this into a recurring review system.
 
 ## Output contract
 
-Derive the recommendation after diagnosis, but lead with the current focus or exploration question. Scale the answer to the request.
+Lead a complete analysis with the **Strategic Judgment and Guiding Approach**, derived from the reasoning above. Adapt this statement rather than mechanically filling every blank:
 
-For a complete strategy, default to five information groups, with flexible headings:
+> Within `[scope and stage]`, `[relationship or constraint]` affects progress through `[mechanism]`. Prioritize `[condition to change or protect]`, enter through `[specific work]`, deploy `[available resources]`, maintain `[essential support]`, and defer `[alternative]`. Seek `[inspectable result]` to establish `[subsequent conditions]`; revise `[judgment, goal, or deployment]` if `[counterevidence, condition change, or loss boundary]` appears.
 
-1. Current focus or exploration question, and why it is worth pursuing
-2. Evidence, material assumptions, and strongest dissent
-3. Alternatives, trade-offs, and no-list
-4. Owned work, Growth and Return Mechanism, and required capabilities
-5. Resource commitments, reality tests, life trade-offs, survival floor, and persist/pivot/stop conditions
+Default to five information groups with flexible headings:
 
-If the user requests a full report, expand to eight sections: **Current Focus; Why It Is Worth Working On; Evidence of Fit and Reality; Alternatives, Trade-offs, and No-List; Owned Project or Startup Thesis; Growth and Return Mechanism; Commitments and Reality Tests; Life Trade-offs, Survival, and Adjustment Conditions.** Adapt titles for exploration.
+1. Strategic Judgment and Guiding Approach
+2. Situation, consequential relationships, and evidence
+3. Entry point, alternatives, and subsequent effects
+4. Resource deployment, coordination, trade-offs, and survival floor
+5. Results, conditions for further action, and revision grounds
 
-For a local question or critique, answer it directly and respect the requested length; do not force alternatives or a full strategy. During diagnosis, present only supportable parts and up to three questions. Never present a provisional focus as a completed strategy.
+An explicitly requested full report may expand under the six reasoning steps. Answer a narrow question or critique directly, respecting the requested length; if asked only for a growth focus, give that supported part rather than forcing a complete report. During diagnosis, supply only justified parts and up to three questions. Mark a provisional judgment as provisional; do not invent missing relationships, results, fit, or validation to complete the template.
 
-## Growth Strategy Integrity Gates
+## Before calling the approach complete
 
-Apply these proportionately to the decision stage, not as prerequisites to starting an experiment:
+Check the connections proportionately to the decision stage:
 
-1. **Worthiness:** The result or learning matters to the user; material success costs are considered.
-2. **Fit:** A concentrated direction has behavioral or output support; exploration names the fit uncertainties to test.
-3. **Focus:** One current allocation decision governs resources, with either one selected direction or bounded candidate work answering one question.
-4. **Reality:** Relevant work and external evidence constrain the thesis, or a bounded experiment will produce them. No invented validation.
-5. **Ownership:** The user can actively claim and shape work that produces agency, responsibility, or learning.
-6. **Progression:** A credible growth and return mechanism, or an explicit exploration hypothesis, connects present work to future capability or a valuable threshold.
-7. **Survivability:** Downside is affordable; the survival floor and adjustment conditions are explicit.
+- The bounded situation and its changes have relevant evidence, with assumptions visible.
+- The diagnosis explains consequential relationships, without a forced single cause, and supports the stage task.
+- The chosen entry fits that task and the person, preserves agency, and considers what follows success or failure.
+- Deployable resources and essential support can sustain the result within affordable losses.
+- The result has value and an honest account of retained capability or a valuable threshold, including costs.
+- Revision grounds distinguish a wrong explanation, changed conditions, implementation, and unresolved influences.
 
-If a material gate is unresolved, continue diagnosis or mark the focus provisional. Reject framework stacking, authority theatre, credential collection without work, startup romanticism, blind all-in bets, automatic advice to scale, pseudo-precision, and productivity plans disguised as strategy.
+An affordable experiment may name what it will test instead of demonstrating a mature mechanism already. If a material connection is unresolved, continue diagnosis or keep the approach provisional. Reject authority theatre, framework stacking, credential collection without work, blind all-in bets, automatic scaling, and productivity plans disguised as strategy.

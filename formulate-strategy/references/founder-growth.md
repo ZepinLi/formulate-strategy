@@ -2,7 +2,7 @@
 
 Read this reference when the user is considering a startup, developing as a founder, evaluating an idea, finding early users, diagnosing growth, deciding how closely to operate, or protecting runway. A startup is one first-class path within personal growth, not the default destination for ambitious people.
 
-Integrate this lens into the current allocation decision: a bounded exploration question or one Current Growth Focus. Before the founder chooses a startup path, do not force a mature startup thesis. Do not produce a separate company-strategy report, platform framework, organization design, fundraising playbook, or growth-at-any-cost plan.
+Integrate this lens into the Strategic Judgment and Guiding Approach. A bounded exploration question or one Current Growth Focus specifies its resource choice; the startup thesis below supports that approach rather than replacing the diagnosis or deployment. Before the founder chooses a startup path, do not force a mature startup thesis. Do not produce a separate company-strategy report, platform framework, organization design, fundraising playbook, or growth-at-any-cost plan.
 
 ## Contents
 
@@ -94,6 +94,8 @@ Use **Founder Mode** only as a hypothesis that responsibility and information pr
 - Which intervention would create dependency or destroy accountability
 
 The boundary should change with evidence, team capability, and stage.
+
+Close contact or founder involvement can work initially and then, through success, generate demands the founder can no longer sustain. Distinguish an initially mistaken approach from a changed capacity condition. Use the relevant sections of [dialectical-strategy.md](dialectical-strategy.md) when that diagnosis changes the practical entry, main effort, or essential support; retain validated user value rather than automatically preserving every manual task or automating all contact.
 
 ## Survival before irreversible commitment
 
