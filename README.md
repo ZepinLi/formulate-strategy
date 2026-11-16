@@ -58,6 +58,16 @@ ln -s "$PWD/formulate-strategy" ~/.cursor/skills/formulate-strategy
 
 Restart the client or open a new agent session if the skill is not discovered immediately. Cursor users can alternatively [import the GitHub repository](https://cursor.com/docs/skills#installing-skills-from-github) from **Customize → Rules → Add Rule → Remote Rule (GitHub)**.
 
+### Codex: make sure the references can be read
+
+The skill requires its reference files, and Codex reads files through shell commands that run inside its bubblewrap sandbox. On hosts that restrict unprivileged user namespaces (for example Ubuntu 24.04 with `kernel.apparmor_restrict_unprivileged_userns=1`), every such command fails with `bwrap: ... Operation not permitted`, so no reference is ever loaded. If you see that error, run once after linking the skill:
+
+```bash
+./scripts/codex-allow-reads.sh
+```
+
+It writes `~/.codex/rules/formulate-strategy.rules`, which allows only the skill's [`scripts/read.sh`](formulate-strategy/scripts/read.sh). That script prints `SKILL.md` or `references/<name>.md` and refuses anything else, so the rule cannot read files outside the skill; every other command stays sandboxed. Rerun it if you move the skill. A rule for plain `cat <file>` is not used because Codex rules match command prefixes, so `cat <file> <other file>` would also pass.
+
 ## Use
 
 | Client | Direct invocation |
@@ -94,8 +104,12 @@ formulate-strategy/
 │   ├── results-2026-11-07.md
 │   ├── results-2026-11-16.md
 │   └── responses/
+├── scripts/
+│   └── codex-allow-reads.sh
 └── formulate-strategy/
     ├── SKILL.md
+    ├── scripts/
+    │   └── read.sh
     ├── references/
     │   ├── dialectical-strategy.md
     │   ├── decision-calibration.md
@@ -105,7 +119,7 @@ formulate-strategy/
         └── openai.yaml
 ```
 
-The inner `formulate-strategy/` directory is the self-contained skill. References load only when relevant: relationships and deployment, evidence calibration, founder questions, or source/methodology requests. Local transcripts, attachments, the original texts, and repository evaluation artifacts are not runtime dependencies.
+The inner `formulate-strategy/` directory is the self-contained skill. `dialectical-strategy.md` and `decision-calibration.md` are read for every request in scope, `founder-growth.md` for startup and founder questions, and `research-provenance.md` for source or methodology requests. If a required file cannot be read, the answer says so. Local transcripts, attachments, the original texts, and repository evaluation artifacts are not runtime dependencies.
 
 ## Behavioral evaluation
 
