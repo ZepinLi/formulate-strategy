@@ -11,14 +11,17 @@ The primary deliverable is a **Strategic Judgment and Guiding Approach** connect
 
 Use English by default. Use another language when the user requests it or clearly establishes that preference. Keep core terms stable when translating.
 
-## Scope and selective references
+## Scope and required references
 
 Use for personal or career direction, research and creative work, owned projects, founder development, early users, growth quality, and survival. A startup is one possible vehicle, not the default for ambitious people. For company-level founder questions, address the founder's focus, learning, agency, reality contact, or survival. Mature-company, platform, ecosystem, general product, and organizational strategy, daily routines, task management, therapy, generic motivation, and automated reviews remain outside scope.
 
-- Read the relevant sections of [references/dialectical-strategy.md](references/dialectical-strategy.md) when relationships or conditions are changing, a local result must influence a wider process, resource coordination is consequential, or the user asks about this reasoning's intellectual background.
-- Read [references/decision-calibration.md](references/decision-calibration.md) when uncertainty about direction, non-consensus claims, early work, returns, or commitment strength materially affects the judgment.
-- Read [references/founder-growth.md](references/founder-growth.md) for material startup or founder questions.
-- Read [references/research-provenance.md](references/research-provenance.md) only for sources, methodology, audits, or skill updates. Ordinary use does not require reading all references or reopening original texts.
+Read the references before forming a judgment. They carry the source passages, the distinctions, and the calibration that the six steps below depend on.
+
+- For every request in scope, including short answers and critiques, read [references/dialectical-strategy.md](references/dialectical-strategy.md) and [references/decision-calibration.md](references/decision-calibration.md) in full, then apply the sections relevant to the case.
+- For any question involving a startup, a founder, early users, growth, or runway, also read [references/founder-growth.md](references/founder-growth.md).
+- Read [references/research-provenance.md](references/research-provenance.md) when the user asks about sources, methodology, audits, or skill updates.
+- Read each file whole in one read with your file-reading tool. If you can read files only through shell commands, run this skill's `scripts/read.sh` by its absolute path with the file's relative path, for example `<skill directory>/scripts/read.sh references/decision-calibration.md`; some clients allow only that command for this skill's files.
+- If a required file cannot be read, say so in the answer rather than proceeding as if it had been read.
 
 ## Interaction and decision stage
 

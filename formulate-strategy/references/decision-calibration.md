@@ -1,6 +1,6 @@
 # Decision Calibration
 
-Read only the sections relevant to a consequential uncertainty. These calibrate evidence and commitment within the main Strategic Judgment and Guiding Approach, not a separate report or mandatory questionnaire. For the distinction between diagnosis, stage task, and entry, or resource coordination as conditions change, use [dialectical-strategy.md](dialectical-strategy.md). Source mappings and limitations live in [research-provenance.md](research-provenance.md).
+Apply the sections relevant to the case's consequential uncertainties. These calibrate evidence and commitment within the main Strategic Judgment and Guiding Approach, not a separate report or mandatory questionnaire. For the distinction between diagnosis, stage task, and entry, or resource coordination as conditions change, use [dialectical-strategy.md](dialectical-strategy.md). Source mappings and limitations live in [research-provenance.md](research-provenance.md).
 
 ## Contents
 
